@@ -14,8 +14,8 @@ export function FeedBack() {
         <div className="bg-slate-100 px-5 py-10 w-full flex justify-center">
             <div className="max-w-[1100px] flex justify-center">
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="font-bold text-4xl text-center">O que nossos clientes dizem:</h1>
-                    <p className="text-center mb-10 text-primary flex items-center gap-2 justify-center">Arraste pro lado para ver mais <FaArrowRight /></p>
+                    <h1 className="font-bold text-4xl text-center text-slate-800">O que nossos clientes dizem:</h1>
+                    <p className="text-center mb-10 text-slate-500 flex items-center gap-2 justify-center">Arraste pro lado para ver mais <FaArrowRight /></p>
                     <div className="flex justify-center">
                         <Carousel className="w-[300px] md:hidden">
                             <CarouselContent>

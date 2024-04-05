@@ -12,7 +12,7 @@ export function Duvidas() {
     return (
         <div className="px-5 py-10 flex justify-center" id="duvidas">
             <div className="w-[1100px]">
-                <h1 className="text-2xl font-bold mb-10">Algumas das principais dúvidas</h1>
+                <h1 className="text-2xl font-bold mb-10 text-slate-800">Algumas das principais dúvidas</h1>
 
                 <Accordion type="single" collapsible className="flex flex-col gap-4">
                     <AccordionItem value="Dúvida 1">
@@ -84,7 +84,7 @@ export function Duvidas() {
                 </Accordion>
 
                 <div className="flex flex-col items-center mt-10">
-                    <h1 className="text-xl font-bold mb-3">Ainda está com dúvidas?</h1>
+                    <h1 className="text-xl font-bold mb-3 text-slate-800">Ainda está com dúvidas?</h1>
                     <Button className="px-8 flex justify-center" asChild>
                         <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Fale com a nossa equipe</Link>
                     </Button>
