@@ -1,3 +1,4 @@
+import { Duvidas } from "@/components/Duvidas";
 import { FeedBack } from "@/components/FeedBack";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
@@ -13,7 +14,7 @@ export function Home() {
             <Hero />
             <Sobre />
             <FeedBack/>
-          
+            <Duvidas/>
         </>
     )
 }

@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-
+import lys from '@/assets/lys2.png'
 
 
 
@@ -37,8 +37,8 @@ export function FeedBack() {
                                             </CardDescription>
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
-                                            <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
+                                            <Avatar >
+                                                <AvatarImage src={lys} className="obje"/>
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Lys Anacleto</p>
@@ -124,7 +124,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
                                             <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
+                                                <AvatarImage src={lys} />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Lys Anacleto</p>
