@@ -12,16 +12,16 @@ export function NavBar() {
                 </div>
                 <ul className='flex gap-10 items-center'>
                     <li className='font-semibold'>
-                        <Link to='#home'>Home</Link>
+                        <a href='#home'>Home</a>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='#sobre'>Sobre</Link>
+                        <a href='#sobre'>Sobre</a>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='#pacotes'>Pacotes</Link>
+                        <a href='#pacotes'>Pacotes</a>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='#duvidas'>Dúvidas</Link>
+                        <a href='#duvidas'>Dúvidas</a>
                     </li>
                     <Button className='w-full' variant={'default'} asChild>
                         <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' className='flex gap-2 items-center' target='_blank'><FaRocketchat /> Realizar Agendamento</Link>

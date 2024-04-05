@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export function Hero() {
     return (
-        <>
+        <div id="home">
             <div className="w-full h-screen bg-[url('/bgphonev2.png')] lg:bg-[url('/site.jpg')] bg-cover pt-52 flex px-5 pb-10 bg-center justify-center">
                 <div className="max-w-[1100px]">
                     <div className="">
@@ -22,6 +22,6 @@ export function Hero() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
