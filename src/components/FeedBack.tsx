@@ -38,7 +38,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
                                             <Avatar >
-                                                <AvatarImage src={lys} className="obje"/>
+                                                <AvatarImage src={lys} alt="Foto de perfil pessoal"/>
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Lys Anacleto</p>
@@ -64,7 +64,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
                                             <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
+                                                <AvatarImage src="https://github.com/shadcn.png" alt="Foto de perfil pessoal"/>
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Sara Do Nascimento Muniz</p>
@@ -90,7 +90,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex gap-4 items-center">
                                             <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
+                                                <AvatarImage src="https://github.com/shadcn.png" alt="Foto de perfil pessoal" />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Letícia Renovato</p>
