@@ -20,9 +20,9 @@ export function Footer() {
         <div className="px-5 pt-10 bg-[#17171a] flex-col justify-center items-center">
             <div className="flex justify-center flex-col items-center">
                 <div className="">
-                    <div className="md:grid grid-cols-2 gap-10 lg:grid-cols-4 pb-10 max-w-[1100px]">
+                    <div className="md:grid grid-cols-2 gap-10 lg:grid-cols-4 pb-10 max-w-[1100px]"> 
                         <div>
-                            <img src={logo} alt="logo do site" width={100} />
+                            <img src={logo} alt="logo do site" width={100} height={100}/>
                             <h1 className="text-input font-medium text-lg mt-2">Atuando desde 2019, oferecendo o mais alto padrão de serviços turísticos em Baía Formosa.</h1>
                         </div>
 
@@ -40,7 +40,7 @@ export function Footer() {
                             <h1 className="font-semibold text-accent uppercase mt-5">Siga-nos</h1>
                             <div className="flex gap-3 mt-2">
                                 <Button asChild>
-                                    <Link to='https://www.instagram.com/baiaformosatour/' target="_blank">
+                                    <Link to='https://www.instagram.com/baiaformosatour/' target="_blank" >
                                         <FaInstagram />
                                     </Link>
                                 </Button>
@@ -80,13 +80,13 @@ export function Footer() {
                     <div className="flex gap-5 mb-10 items-center">
                         <div>
                             <Link to='https://www.google.com/maps/place/Passeios+em+Ba%C3%ADa+Formosa+de+Quadriciclo+e+Buggy-+Ba%C3%ADa+Formosa+tour/@-6.3694837,-35.0027684,17z/data=!4m14!1m7!3m6!1s0x7b29d1999773fc5:0x9dc64592cc02eb0!2sPasseios+em+Ba%C3%ADa+Formosa+de+Quadriciclo+e+Buggy-+Ba%C3%ADa+Formosa+tour!8m2!3d-6.3694837!4d-35.0027684!16s%2Fg%2F11fm3wgqvd!3m5!1s0x7b29d1999773fc5:0x9dc64592cc02eb0!8m2!3d-6.3694837!4d-35.0027684!16s%2Fg%2F11fm3wgqvd?entry=ttu' className="flex flex-col " target="_blank">
-                                <img src={google} alt="logo do google" width={100} />
+                                <img src={google} alt="logo do google" width={100} height={100}/>
                             </Link>
                         </div>
                         <div className="">
                             <Dialog>
                                 <DialogTrigger asChild className="cursor-pointer">
-                                    <img src={cadastur} alt="logo do cadastur" width={170} />
+                                    <img src={cadastur} alt="logo do cadastur" width={170} height={170}/>
                                 </DialogTrigger>
                                 <DialogContent>
                                     <DialogHeader>

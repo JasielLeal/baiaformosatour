@@ -8,7 +8,7 @@ export function NavBar() {
         <>
             <div className='bg-white w-full fixed border-b py-2 items-center justify-around px-5 z-50 hidden lg:flex'>
                 <div className="w-20">
-                    <img src="logo.png" alt="logo do site"/>
+                    <img src="logo.png" alt="logo do site" width={80} height={80}/>
                 </div>
                 <ul className='flex gap-10 items-center'>
                     <li className='font-semibold'>

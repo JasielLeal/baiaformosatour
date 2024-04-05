@@ -9,7 +9,7 @@ export function NavMobile() {
     return (
         <div className='flex items-center justify-between fixed w-full px-5 py-2 bg-white border-b z-50 lg:hidden'>
             <div className="w-20">
-                <img src="logo.png" alt="logo do Baia Formosa Tour" />
+                <img src="logo.png" alt="logo do Baia Formosa Tour" width={80} height={80}/>
             </div>
             <Sheet>
                 <SheetTrigger asChild>
