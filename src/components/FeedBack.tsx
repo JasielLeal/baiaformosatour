@@ -53,7 +53,8 @@ export function FeedBack() {
                                                 <div className="w-20">
                                                     <img src="google.png" alt="logo do google" />
                                                 </div>
-                                                Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</CardTitle>
+                                                <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
+                                                </CardTitle>
                                             <CardDescription className="flex text-yellow-400">
                                                 <FaStar />
                                                 <FaStar />

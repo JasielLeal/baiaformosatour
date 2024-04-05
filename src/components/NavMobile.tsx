@@ -65,13 +65,13 @@ export function NavMobile() {
                                             <h1 className='font-bold text-left mb-2'>Redes Sociais</h1>
                                             <div className='flex flex-col gap-3'>
                                                 <Button className='w-full' variant={'secondary'} asChild>
-                                                    <Link to='https://www.instagram.com/baiaformosatour/' className='flex gap-2 items-center text-left' target='_blank'><FaInstagram /> Instagram</Link>
+                                                    <Link to='https://www.instagram.com/baiaformosatour/' className='flex gap-2 items-center text-left' target='_blank' aria-label="Botão de ir para o instagram"><FaInstagram /> Instagram</Link>
                                                 </Button>
                                                 <Button className='w-full' variant={'secondary'} asChild>
-                                                    <Link to='https://www.tiktok.com/@baiaformosatour?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1' className='flex gap-2 items-center text-left' target='_blank'><FaTiktok /> TikTok</Link>
+                                                    <Link to='https://www.tiktok.com/@baiaformosatour?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1' className='flex gap-2 items-center text-left' target='_blank' aria-label="Botão de ir para o Tiktok"><FaTiktok /> TikTok</Link>
                                                 </Button>
                                                 <Button className='w-full' variant={'secondary'} asChild>
-                                                    <Link to='https://www.youtube.com/@baiaformosatour' className='flex gap-2 items-center text-left' target='_blank'><FaYoutube /> Youtube</Link>
+                                                    <Link to='https://www.youtube.com/@baiaformosatour' className='flex gap-2 items-center text-left' target='_blank' aria-label="Botão de ir para o Youtube"><FaYoutube /> Youtube</Link>
                                                 </Button>
                                             </div>
                                         </div>
