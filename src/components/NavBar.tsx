@@ -11,16 +11,16 @@ export function NavBar() {
                     <img src="logo.png" alt="logo do site" width={80} height={80}/>
                 </div>
                 <ul className='flex gap-10 items-center'>
-                    <li className='font-semibold'>
+                    <li className='font-semibold hover:text-primary transition-all'>
                         <a href='#home'>Home</a>
                     </li>
-                    <li className='font-semibold'>
+                    <li className='font-semibold hover:text-primary transition-all'>
                         <a href='#sobre'>Sobre</a>
                     </li>
-                    <li className='font-semibold'>
+                    <li className='font-semibold hover:text-primary transition-all'>
                         <a href='#pacotes'>Pacotes</a>
                     </li>
-                    <li className='font-semibold'>
+                    <li className='font-semibold hover:text-primary transition-all'>
                         <a href='#duvidas'>Dúvidas</a>
                     </li>
                     <Button className='w-full' variant={'default'} asChild>

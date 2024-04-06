@@ -78,11 +78,7 @@ export function NavMobile() {
                                     </div>
                                 </div>
                             </div>
-                            <SheetClose asChild>
-                                <Link to='#sobre'>
-                                    fechar
-                                </Link>
-                            </SheetClose>
+                            
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>

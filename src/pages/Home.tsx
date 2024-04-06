@@ -8,14 +8,18 @@ import { NavBar } from "@/components/NavBar";
 import { NavMobile } from "@/components/NavMobile";
 
 import { Sobre } from "@/components/Sobre";
+import { WhatsButton } from "@/components/WhatsButton";
 
 
 export function Home() {
     return (
         <>
             <NavMobile />
+            
             <NavBar />
+            <WhatsButton/>
             <Hero />
+            
             <Sobre />
             <FeedBack/>
             <Duvidas/>
