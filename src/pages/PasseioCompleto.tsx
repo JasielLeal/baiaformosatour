@@ -12,8 +12,8 @@ export function PasseioCompleto() {
                     <div className="px-5 py-5 w-[320px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden">
                         <div className=" h-full">
                             <Carousel>
-                                <CarouselContent>
-                                    <CarouselItem><img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] xl:w-[700px]" /></CarouselItem>
+                                <CarouselContent className="">
+                                    <CarouselItem><img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] xl:w-[700px] rounded-lg" /></CarouselItem>
                                     <CarouselItem>...</CarouselItem>
                                     <CarouselItem>...</CarouselItem>
                                 </CarouselContent>
