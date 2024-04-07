@@ -1,4 +1,5 @@
-import { Button } from "./ui/button";
+import { Button } from "../components/ui/button";
+import { Vantagens } from "../components/vantagens";
 
 
 export function Sobre() {
@@ -12,8 +13,11 @@ export function Sobre() {
                         <Button className="w-full flex justify-center">Clique para conhecer a gente</Button>
                     </div>
                     <div className="flex mt-10 md:justify-end justify-center">
-                        <img src="logo.png" alt="logo do baía formosa tour" width={300}/>
+                        <img src="logo.png" alt="logo do baía formosa tour" width={300} />
                     </div>
+                </div>
+                <div>
+                    <Vantagens />
                 </div>
             </div>
         </div>

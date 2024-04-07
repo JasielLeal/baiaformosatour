@@ -4,13 +4,13 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Button } from "./ui/button"
+import { Button } from "../components/ui/button"
 import { Link } from "react-router-dom"
 
 
 export function Duvidas() {
     return (
-        <div className="px-5 py-10 flex justify-center" id="duvidas">
+        <div className="px-5 py-10 flex justify-center pt-32">
             <div className="w-[1100px]">
                 <h1 className="text-2xl font-bold mb-10 text-slate-800">Algumas das principais dúvidas</h1>
 

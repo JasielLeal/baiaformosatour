@@ -1,8 +1,8 @@
 
-import logo from '../../public/logo.png'
+import logo from '/logo.png'
 import { Button } from "./ui/button";
 
-import google from '../../public/google.png'
+import google from '/google.png'
 import {
     Dialog,
     DialogContent,
@@ -11,8 +11,8 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog"
 
-import cadastur from '../../public/casdastur.png'
-import certificado from '../../public/certificado.jpg'
+import cadastur from '/casdastur.png'
+import certificado from '/certificado.jpg'
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 export function Footer() {
