@@ -5,6 +5,10 @@ import { LayoutPage } from "./pages/LayoutPage";
 import { Duvidas } from "./pages/Duvidas";
 import { Sobre } from "./pages/Sobre";
 import { Page404 } from "./pages/page404";
+import { PasseioDeBuggy } from "./pages/PasseioBuggy";
+import { PorDoSol } from "./pages/PorDoSol";
+import { PacotesTotal } from "./pages/Pacotes";
+import { PasseioMaguezal } from "./pages/PasseioMaguezal";
 
 
 export const router = createBrowserRouter([
@@ -14,6 +18,10 @@ export const router = createBrowserRouter([
     children: [
       { path: '/', element: <Home /> },
       { path: '/passeiocompleto', element: <PasseioCompleto /> },
+      { path: '/passeiodemaguezal', element: <PasseioMaguezal/> },
+      { path: '/passeiodebuggy', element: <PasseioDeBuggy /> },
+      { path: '/pordosol', element: <PorDoSol /> },
+      { path: '/pacotes', element: <PacotesTotal /> },
       { path: '/duvidas', element: <Duvidas /> },
       { path: '/sobre', element: <Sobre /> }
     ]

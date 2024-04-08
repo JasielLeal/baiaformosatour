@@ -5,8 +5,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import lys from '@/assets/lys2.png'
-
-
+import sara from '../assets/sara.png'
+import leticia from '@/assets/leticia.png'
+import allan from '@/assets/allan.png'
 
 export function FeedBack() {
     return (
@@ -21,7 +22,7 @@ export function FeedBack() {
                             <CarouselContent>
 
                                 <CarouselItem>
-                                    <Card className="h-[400px] flex flex-col justify-between">
+                                    <Card className="h-[500px] flex flex-col justify-between">
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
@@ -38,7 +39,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
                                             <Avatar >
-                                                <AvatarImage src={lys} alt="Foto de perfil pessoal"/>
+                                                <AvatarImage src={lys} alt="Foto de perfil pessoal" />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Lys Anacleto</p>
@@ -47,14 +48,14 @@ export function FeedBack() {
                                 </CarouselItem>
 
                                 <CarouselItem>
-                                    <Card className="h-[400px] flex flex-col justify-between">
+                                    <Card className="h-[500px] flex flex-col justify-between">
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
                                                     <img src="google.png" alt="logo do google" />
                                                 </div>
                                                 <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
-                                                </CardTitle>
+                                            </CardTitle>
                                             <CardDescription className="flex text-yellow-400">
                                                 <FaStar />
                                                 <FaStar />
@@ -65,7 +66,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex items-center gap-4">
                                             <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" alt="Foto de perfil pessoal"/>
+                                                <AvatarImage src={sara} alt="Foto de perfil pessoal" />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Sara Do Nascimento Muniz</p>
@@ -74,7 +75,33 @@ export function FeedBack() {
                                 </CarouselItem>
 
                                 <CarouselItem>
-                                    <Card className="h-[400px] flex flex-col justify-between">
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.png" alt="logo do google" />
+                                                </div>
+                                                Excelente opção de passeios de quadriciclos em Baia Formosa.
+                                                Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={allan} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Allan Nobre</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
@@ -91,7 +118,7 @@ export function FeedBack() {
                                         </CardHeader>
                                         <CardContent className="flex gap-4 items-center">
                                             <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" alt="Foto de perfil pessoal" />
+                                                <AvatarImage src={leticia} alt="Foto de perfil pessoal" />
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Letícia Renovato</p>
@@ -107,83 +134,110 @@ export function FeedBack() {
                         <div className="flex justify-center items-center px-5 ">
                             <Carousel className="w-[700px]">
                                 <CarouselContent>
-                                <CarouselItem>
-                                    <Card className="h-[300px] flex flex-col justify-between">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">
-                                                <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
-                                                </div>
-                                                Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
-                                            <CardDescription className="flex text-yellow-400">
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                            </CardDescription>
-                                        </CardHeader>
-                                        <CardContent className="flex items-center gap-4">
-                                            <Avatar>
-                                                <AvatarImage src={lys} />
-                                                <AvatarFallback>CN</AvatarFallback>
-                                            </Avatar>
-                                            <p className="italic">Lys Anacleto</p>
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.png" alt="logo do google" />
+                                                    </div>
+                                                    Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex items-center gap-4">
+                                                <Avatar >
+                                                    <AvatarImage src={lys} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Lys Anacleto</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
 
-                                <CarouselItem>
-                                    <Card className="h-[300px] flex flex-col justify-between">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">
-                                                <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
-                                                </div>
-                                                Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</CardTitle>
-                                            <CardDescription className="flex text-yellow-400">
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                            </CardDescription>
-                                        </CardHeader>
-                                        <CardContent className="flex items-center gap-4">
-                                            <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
-                                                <AvatarFallback>CN</AvatarFallback>
-                                            </Avatar>
-                                            <p className="italic">Sara Do Nascimento Muniz</p>
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.png" alt="logo do google" />
+                                                    </div>
+                                                    <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
+                                                </CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex items-center gap-4">
+                                                <Avatar>
+                                                    <AvatarImage src={sara} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Sara Do Nascimento Muniz</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
 
-                                <CarouselItem>
-                                    <Card className="h-[300px] flex flex-col justify-between">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">
-                                                <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
-                                                </div>
-                                                Passeio maravilhosoo, ponto de apoio para almoço que tinha uma comida muito saborosa tambem (Nativa). Com certeza irei repetir, obrigada a Julio por nos levar nesse passeio incrivel ❤️</CardTitle>
-                                            <CardDescription className="flex text-yellow-400">
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                            </CardDescription>
-                                        </CardHeader>
-                                        <CardContent className="flex gap-4 items-center">
-                                            <Avatar>
-                                                <AvatarImage src="https://github.com/shadcn.png" />
-                                                <AvatarFallback>CN</AvatarFallback>
-                                            </Avatar>
-                                            <p className="italic">Letícia Renovato</p>
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.png" alt="logo do google" />
+                                                    </div>
+                                                    Excelente opção de passeios de quadriciclos em Baia Formosa.
+                                                    Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={allan} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Allan Nobre</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.png" alt="logo do google" />
+                                                    </div>
+                                                    Passeio maravilhosoo, ponto de apoio para almoço que tinha uma comida muito saborosa tambem (Nativa). Com certeza irei repetir, obrigada a Julio por nos levar nesse passeio incrivel ❤️</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={leticia} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Letícia Renovato</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
                                 </CarouselContent>
                                 <CarouselPrevious className="flex justify-center items-center" />
                                 <CarouselNext className="flex justify-center items-center" />

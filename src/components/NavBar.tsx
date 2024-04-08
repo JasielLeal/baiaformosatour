@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 export function NavBar() {
-    
+
     const [background, setBackground] = useState(true)
 
     useEffect(() => {
@@ -20,15 +20,19 @@ export function NavBar() {
         }
         window.addEventListener('scroll', teste)
     }, [])
-    
+
+
+
     return (
         <>
-            <div className={background ? 'w-full fixed py-2 items-center justify-around px-5 z-50 hidden lg:flex text-slate-300 ': 'bg-white w-full fixed border-b py-2 items-center justify-around px-5 z-50 hidden lg:flex transition-all '}>
+            <div className={background ? 'w-full fixed py-2 items-center justify-around px-5 z-50 hidden lg:flex text-slate-400 ' : 'bg-white w-full fixed border-b py-2 items-center justify-around px-5 z-50 hidden lg:flex transition-all '}>
                 <div className="w-20">
-                    <img src="logo.png" alt="logo do site" width={80} height={80}/>
+                    <Link to='/'>
+                        <img src="logo.png" alt="logo do site" width={80} height={80} />
+                    </Link>
                 </div>
                 <ul className='flex gap-10 items-center'>
-                    <li className={background ? 'font-semibold hover:text-primary ' :'font-semibold hover:text-primary transition-all'}>
+                    <li className={background ? 'font-semibold hover:text-primary ' : 'font-semibold hover:text-primary transition-all'}>
                         <NavLink to='/'>Home</NavLink>
                     </li>
                     <li className='font-semibold hover:text-primary'>
