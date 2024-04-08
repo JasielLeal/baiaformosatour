@@ -11,7 +11,7 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog"
 
-import cadastur from '/casdastur.webp'
+import cadastur from '/cadastur.webp'
 import certificado from '/certificado.webp'
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';
