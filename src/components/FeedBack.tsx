@@ -8,15 +8,23 @@ import lys from '@/assets/lys2.png'
 import sara from '../assets/sara.png'
 import leticia from '@/assets/leticia.png'
 import allan from '@/assets/allan.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export function FeedBack() {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     return (
 
         <div className="bg-slate-100 px-5 py-10 w-full flex justify-center">
             <div className="max-w-[1100px] flex justify-center">
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="font-bold text-4xl text-center text-slate-800">O que nossos clientes dizem:</h1>
-                    <p className="text-center mb-10 text-slate-500 flex items-center gap-2 justify-center">Arraste pro lado para ver mais <FaArrowRight /></p>
+                    <h1 className="font-bold text-4xl text-center text-slate-800" data-aos="fade-right" data-aos-duration="1000">O que nossos clientes dizem:</h1>
+                    <p className="text-center mb-10 text-slate-500 flex items-center gap-2 justify-center" data-aos="fade-right" data-aos-duration="1000">Arraste pro lado para ver mais <FaArrowRight /></p>
                     <div className="flex justify-center">
                         <Carousel className="w-[300px] md:hidden">
                             <CarouselContent>
@@ -131,10 +139,10 @@ export function FeedBack() {
 
                     {/* FeedBack Desktop*/}
                     <div className="hidden md:block">
-                        <div className="flex justify-center items-center px-5 ">
+                        <div className="flex justify-center items-center px-5" >
                             <Carousel className="w-[700px]">
-                                <CarouselContent>
-                                    <CarouselItem>
+                                <CarouselContent >
+                                    <CarouselItem >
                                         <Card className="h-[300px] flex flex-col justify-between">
                                             <CardHeader>
                                                 <CardTitle className="text-base">

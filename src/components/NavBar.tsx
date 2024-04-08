@@ -9,6 +9,8 @@ export function NavBar() {
 
     const [background, setBackground] = useState(true)
 
+ 
+
     useEffect(() => {
         function teste() {
             if (window.scrollY < 40) {

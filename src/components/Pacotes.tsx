@@ -2,22 +2,29 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 import { FaCheck } from "react-icons/fa";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export function Pacotes() {
+    
+    useEffect(()=>{
+        AOS.init()
+    },[])
+    
     return (
         <>
             <div className="flex justify-center px-5 py-10">
                 <div className="max-w-[1100px]">
                     <div className="">
-                        <div className="flex flex-col items-center">
+                        <div className="flex flex-col items-center" data-aos="fade-down" data-aos-duration="500">
                             <h1 className="font-medium text-primary">Pacotes</h1>
                             <h2 className="text-xl font-bold text-center mb-1 text-slate-800">Nossas recomendações destacadas de pacotes para você.</h2>
                             <Badge>Recomendados</Badge>
                         </div>
 
-                        <div className="my-10 flex flex-col gap-20 md:grid grid-cols-2 lg:grid-cols-3">
-                            <div className="border p-5 rounded-lg">
+                        <div className="my-10 flex flex-col gap-20 md:grid grid-cols-2 lg:grid-cols-3"  >
+                            <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
                                 <h1 className="font-bold text-slate-800 text-2xl mb-5">Por do Sol</h1>
                                 <p className="text-slate-600">Desfrute da magnífica beleza natural da cidade, contemplando uma vista panorâmica de tirar o fôlego.</p>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 120,00</h1>
@@ -34,7 +41,7 @@ export function Pacotes() {
 
                                 </div>
                             </div>
-                            <div className="border p-5 rounded-lg">
+                            <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
                                 <h1 className="font-bold text-slate-800 text-2xl mb-5">Passeio de Buggy</h1>
                                 <p className="text-slate-600">Uma opção ideal para aqueles que procuram apreciar paisagens magníficas de forma mais tranquila, livre e segura.</p>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 420,00</h1>
@@ -51,7 +58,7 @@ export function Pacotes() {
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
                                 </div>
                             </div>
-                            <div className="border p-5 rounded-lg">
+                            <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
                                 <h1 className="font-bold text-slate-800 text-2xl mb-5">Passeio Completo</h1>
                                 <p className="text-slate-600">Uma experiência excepcional para aqueles que buscam paisagens deslumbrantes e magníficas de forma radical e segura</p>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 350,00</h1>
