@@ -28,7 +28,7 @@ export function NavMobile() {
     return (
         <div className={background ? 'flex items-center justify-between fixed w-full px-5 py-2  z-50 lg:hidden transition-all ease-in-out' : 'flex items-center justify-between fixed w-full px-5 py-2  z-50 lg:hidden bg-white transition-all ease-in-out shadow'}>
             <div className="w-20">
-                <Link to='/'><img src="logo.png" alt="logo do Baia Formosa Tour" width={80} height={80} /></Link>
+                <Link to='/'><img src="logo.webp" alt="logo do Baia Formosa Tour" width={80} height={80} /></Link>
             </div>
             <Sheet>
                 <SheetTrigger asChild>

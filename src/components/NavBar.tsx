@@ -30,7 +30,7 @@ export function NavBar() {
             <div className={background ? 'w-full fixed py-2 items-center justify-around px-5 z-50 hidden lg:flex text-slate-400 ' : 'bg-white w-full fixed border-b py-2 items-center justify-around px-5 z-50 hidden lg:flex transition-all '}>
                 <div className="w-20">
                     <Link to='/'>
-                        <img src="logo.png" alt="logo do site" width={80} height={80} />
+                        <img src="logo.webp" alt="logo do site" width={80} height={80} />
                     </Link>
                 </div>
                 <ul className='flex gap-10 items-center'>

@@ -1,7 +1,6 @@
 import { Button } from "../components/ui/button";
 import { Vantagens } from "../components/vantagens";
-
-
+import logo from '/logo.webp'
 export function Sobre() {
     return (
         <div className="px-5 py-32 flex justify-center" id="sobre">
@@ -13,7 +12,7 @@ export function Sobre() {
                         <Button className="w-full flex justify-center">Clique para conhecer a gente</Button>
                     </div>
                     <div className="flex mt-10 md:justify-end justify-center">
-                        <img src="logo.png" alt="logo do baía formosa tour" width={300} />
+                        <img src={logo} alt="logo do baía formosa tour" width={300} />
                     </div>
                 </div>
                 <div>

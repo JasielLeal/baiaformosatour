@@ -4,10 +4,10 @@ import { Button } from "./ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import lys from '@/assets/lys2.png'
-import sara from '../assets/sara.png'
-import leticia from '@/assets/leticia.png'
-import allan from '@/assets/allan.png'
+import lys from '@/assets/lys2.webp'
+import sara from '../assets/sara.webp'
+import leticia from '@/assets/leticia.webp'
+import allan from '@/assets/allan.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -34,7 +34,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" />
                                                 </div>
                                                 Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -60,7 +60,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" />
                                                 </div>
                                                 <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
                                             </CardTitle>
@@ -87,7 +87,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" />
                                                 </div>
                                                 Excelente opção de passeios de quadriciclos em Baia Formosa.
                                                 Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
@@ -147,7 +147,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.png" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" />
                                                     </div>
                                                     Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -173,7 +173,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.png" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" />
                                                     </div>
                                                     <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
                                                 </CardTitle>
@@ -200,7 +200,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.png" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" />
                                                     </div>
                                                     Excelente opção de passeios de quadriciclos em Baia Formosa.
                                                     Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
@@ -226,7 +226,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.png" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" />
                                                     </div>
                                                     Passeio maravilhosoo, ponto de apoio para almoço que tinha uma comida muito saborosa tambem (Nativa). Com certeza irei repetir, obrigada a Julio por nos levar nesse passeio incrivel ❤️</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">

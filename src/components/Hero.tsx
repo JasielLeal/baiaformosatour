@@ -14,7 +14,7 @@ export function Hero() {
     
     return (
         <div id="home">
-            <div className="w-full h-screen bg-[url('/bgphonev2.png')] lg:bg-[url('/site.png')] bg-cover pt-52 flex px-5 pb-10 bg-center justify-center">
+            <div className="w-full h-screen bg-[url('/bgphonev2.webp')] lg:bg-[url('/site.webp')] bg-cover pt-52 flex px-5 pb-10 bg-center justify-center">
                 <div className="max-w-[1100px]">
                     <div className="">
                         <Badge variant="default" className="mb-2 lg:text-base">Empresa especializa em turismo</Badge>

@@ -1,6 +1,6 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '/passeiocompleto.jpg'
-import passeiocompleto2 from '/passeiocompleto2.jpg'
+import passeiocompleto from '/passeiocompleto.webp'
+import passeiocompleto2 from '/passeiocompleto2.webp'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";

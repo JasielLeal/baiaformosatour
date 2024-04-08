@@ -1,8 +1,8 @@
 
-import logo from '/logo.png'
+import logo from '/logo.webp'
 import { Button } from "./ui/button";
 
-import google from '/google.png'
+import google from '/google.webp'
 import {
     Dialog,
     DialogContent,
@@ -11,8 +11,8 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog"
 
-import cadastur from '/casdastur.png'
-import certificado from '/certificado.jpg'
+import cadastur from '/casdastur.webp'
+import certificado from '/certificado.webp'
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 export function Footer() {
