@@ -18,7 +18,7 @@ export function Hero() {
                 <div className="max-w-[1100px]">
                     <div className="">
                         <Badge variant="default" className="mb-2 lg:text-base">Empresa especializa em turismo</Badge>
-                        <h1 className="uppercase text-white font-bold text-4xl lg:text-6xl" data-aos="fade-down" data-aos-duration="1000">Vem viver essa<br />experiência de maneira<br />única!</h1>
+                        {/*<h1 className="uppercase text-white font-bold text-4xl lg:text-6xl" data-aos="fade-down" data-aos-duration="1000">Vem viver essa<br />experiência de maneira<br />única!</h1>*/}
                         <p className="font-normal text-white lg:text-xl sm:max-w-[740px]" data-aos="fade-up" data-aos-duration="1000">Aproveite o melhor da natureza, da aventura e da liberdade em um passeio imperdível, onde as paisagens se tornam seus caminhos.</p>
                         <div className="mt-4 flex gap-2" >
                             <Button variant='default' asChild data-aos="fade-right" data-aos-duration="1000">
