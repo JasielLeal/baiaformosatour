@@ -1,6 +1,8 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '/passeiocompleto.webp'
-import passeiocompleto2 from '/passeiocompleto2.webp'
+import manguezal1 from '@/assets/PasseioManguezal/maguezal1.webp'
+import manguezal2 from '@/assets/PasseioManguezal/manguezal2.webp'
+import manguezal3 from '@/assets/PasseioManguezal/manguezal3.webp'
+import manguezal4 from '@/assets/PasseioManguezal/manguezal4.webp'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -15,10 +17,16 @@ export function PasseioMaguezal() {
                             <Carousel className="flex justify-center">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal1} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal2} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={manguezal3} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={manguezal4} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                             </Carousel>

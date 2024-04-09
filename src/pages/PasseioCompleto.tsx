@@ -1,6 +1,9 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '/passeiocompleto.webp'
-import passeiocompleto2 from '/passeiocompleto2.webp'
+import passeiocompleto from '@/assets/PasseioCompleto/passeiocompleto.webp'
+import passeiocompleto2 from '@/assets/PasseioCompleto/passeiocompleto2.webp'
+import passeiocompleto3 from '@/assets/PasseioCompleto/passeiocompleto3.webp'
+import passeiocompleto4 from '@/assets/PasseioCompleto/passeiocompleto4.webp'
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -20,7 +23,13 @@ export function PasseioCompleto() {
                                     <CarouselItem>
                                         <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
-                                    <CarouselItem>...</CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto3} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto4} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover object-center" />
+                                    </CarouselItem>
+                                    
                                 </CarouselContent>
                             </Carousel>
 

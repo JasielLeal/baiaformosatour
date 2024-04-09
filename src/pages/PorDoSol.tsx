@@ -1,6 +1,8 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '/passeiocompleto.webp'
-import passeiocompleto2 from '/passeiocompleto2.webp'
+import pordosol1 from '@/assets/PorDoSol/pordosol1.webp'
+import pordosol2 from '@/assets/PorDoSol/pordosol2.webp'
+import pordosol3 from '@/assets/PorDoSol/pordosol3.webp'
+import pordosol4 from '@/assets/PorDoSol/pordosol4.webp'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -15,10 +17,16 @@ export function PorDoSol() {
                             <Carousel className="flex justify-center">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={pordosol1} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={pordosol2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pordosol3} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pordosol4} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                             </Carousel>

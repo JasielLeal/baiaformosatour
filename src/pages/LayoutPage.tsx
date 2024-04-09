@@ -2,7 +2,7 @@ import { Footer } from "@/components/Footer";
 import { NavBar } from "@/components/NavBar";
 import { NavMobile } from "@/components/NavMobile";
 import { WhatsButton } from "@/components/WhatsButton";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 
 export function LayoutPage() {
     return (
@@ -12,6 +12,7 @@ export function LayoutPage() {
             <WhatsButton />
             <Outlet/>
             <Footer />
+            <ScrollRestoration/>
         </>
     )
 }

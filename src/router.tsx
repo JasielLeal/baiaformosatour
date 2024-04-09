@@ -10,14 +10,13 @@ import { PorDoSol } from "./pages/PorDoSol";
 import { PacotesTotal } from "./pages/Pacotes";
 import { PasseioMaguezal } from "./pages/PasseioMaguezal";
 
-
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <LayoutPage />,
     children: [
       { path: '/', element: <Home /> },
-      { path: '/passeiocompleto', element: <PasseioCompleto /> },
+      { path: '/passeiocompleto', element: <PasseioCompleto />,  },
       { path: '/passeiodemaguezal', element: <PasseioMaguezal/> },
       { path: '/passeiodebuggy', element: <PasseioDeBuggy /> },
       { path: '/pordosol', element: <PorDoSol /> },

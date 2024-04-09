@@ -1,6 +1,8 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '/passeiocompleto.webp'
-import passeiocompleto2 from '/passeiocompleto2.webp'
+import buggy1 from '@/assets/PasseioBuggy/buggy1.webp'
+import buggy2 from '@/assets/PasseioBuggy/buggy2.webp'
+import buggy3 from '@/assets/PasseioBuggy/buggy3.webp'
+import buggy4 from '@/assets/PasseioBuggy/buggy4.webp'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -15,10 +17,16 @@ export function PasseioDeBuggy() {
                             <Carousel className="flex justify-center">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={buggy1} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={buggy2} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={buggy3} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={buggy4} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                             </Carousel>
