@@ -49,7 +49,7 @@ export function PasseioDeBuggy() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Paias Desertas</p>
                                     </div>
                                 </div>
-                                <Button asChild className="mt-10 w-full">
+                                <Button asChild className="mt-10 w-[280px]">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">
                                         Realizar agendamento
                                     </Link>

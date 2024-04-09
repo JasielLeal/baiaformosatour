@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 export function PasseioMaguezal() {
     return (
-        <div className="flex justify-center pt-32 ">
+        <div className="flex justify-center pt-32">
             <div className="max-w-[1100px]">
                 <div className="flex flex-col items-center ">
                     <div className="px-5 py-5 w-[320px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden">
@@ -25,7 +25,7 @@ export function PasseioMaguezal() {
 
 
                         </div>
-                        <div className="flex flex-col justify-between w-[500px]">
+                        <div className="flex flex-col justify-between w-[300px] lg:w-[500px]">
                             <div>
                                 <div>
                                     <Badge className="mt-10">Recomendado</Badge>
@@ -47,7 +47,7 @@ export function PasseioMaguezal() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Guia a sua disposição</p>
                                     </div>
                                 </div>
-                                <Button asChild className="mt-10 w-full">
+                                <Button asChild className="mt-10 w-[280px]">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">
                                         Realizar agendamento
                                     </Link>
