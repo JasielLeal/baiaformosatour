@@ -50,9 +50,10 @@ export function PacotesTotal(){
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
                                 </div>
                             </div>
-                            <div className="border p-5 rounded-lg">
-                                <h1 className="font-bold text-slate-800 text-2xl mb-5">Passeio Completo</h1>
-                                <p className="text-slate-600">Uma experiência excepcional para aqueles que buscam paisagens deslumbrantes e magníficas de forma radical e segura</p>
+                            <div className="border p-5 rounded-lg bg-slate-800">
+                                <h1 className="font-bold text-white text-2xl">Passeio Completo</h1>
+                                <Badge className="mb-5">Mais popular</Badge>
+                                <p className="text-white">Uma experiência excepcional para aqueles que buscam paisagens deslumbrantes e magníficas de forma radical e segura</p>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 350,00</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Reservar Agora</Link>
@@ -61,10 +62,10 @@ export function PacotesTotal(){
                                     <Link to='/passeiocompleto'>Detalhes</Link>
                                 </Button>
                                 <div className="mt-10 flex flex-col gap-2">
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg">
