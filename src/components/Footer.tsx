@@ -63,8 +63,7 @@ export function Footer() {
                             <h1 className="font-semibold text-accent uppercase">Informações</h1>
 
                             <div className="flex flex-col pb-10 justify-start">
-                                <Button variant={'link'} asChild cl
-                                assName='flex justify-start'>
+                                <Button variant={'link'} asChild className='flex justify-start'>
                                     <Link to='/termos' >
                                         - Nossos Termos de serviços
                                     </Link>
