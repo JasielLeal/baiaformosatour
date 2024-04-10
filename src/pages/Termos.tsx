@@ -21,7 +21,7 @@ export function Termos() {
                         </div>
                     </div>
                     <div>
-                        <p className="text-slate-800 font-semibold mb-2 mt-10">A O contratante se compromete:</p>
+                        <p className="text-slate-800 font-semibold mb-2 mt-10">O contratante se compromete:</p>
                         <div>
                             <p className="mb-1">- Seguir as normas de segurança
                                 repassadas pelos instrutores e atendentes;</p>
