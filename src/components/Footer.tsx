@@ -64,12 +64,12 @@ export function Footer() {
 
                             <div className="flex flex-col pb-10 justify-start">
                                 <Button variant={'link'} asChild className='flex justify-start'>
-                                    <Link to='/' >
+                                    <Link to='/termos' >
                                         - Termos de serviço
                                     </Link>
                                 </Button>
                                 <Button variant={'link'} asChild className='flex justify-start'>
-                                    <Link to='/' target="_blank" >
+                                    <Link to='/termos' target="_blank" >
                                         - Termos de contrato
                                     </Link>
                                 </Button>
