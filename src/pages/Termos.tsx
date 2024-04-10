@@ -5,7 +5,7 @@ export function Termos() {
                 <div className="max-w-[1100px]">
                     <div className="mb-5">
                         <h1 className="text-slate-800 text-2xl font-bold mb-10">Nossos Termos</h1>
-                        <p>A contratada BaíaFormosaTour, CNPJ: CNPJ: 52.448.765/0001-92, situada em Baía Formosa/RN, operadora de turismo de aventura esclarece:
+                        <p>A contratada BaíaFormosaTour, CNPJ: 52.448.765/0001-92, situada em Baía Formosa/RN, operadora de turismo de aventura esclarece:
                             “Independente dos controles de segurança, as atividades de aventura possuem risco
                             inerente”</p>
                     </div>
