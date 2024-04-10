@@ -34,6 +34,16 @@ export function Termos() {
                                 atividade.</p>
                         </div>
                     </div>
+                    <div>
+                        <p className="text-slate-800 font-semibold my-10">Ao aceitar os termos da Baía Formosa Tour você declara que:</p>
+
+                        <p>para os devidos fins que participo das atividades e estou ciente dos riscos envolvidos.
+                            Isento a BaíaFormosaTour, empresa promotora das atividades, de qualquer responsabilidade por
+                            eventuais danos causados a minha integridade física ou a meus equipamentos pessoais
+                            durante tais práticas e
+                            autorizo a BaíaFormosaTour, a veiculação de imagens colhidas neste evento para fins
+                            promocionais, e para inserção na sua página na internet.</p>
+                    </div>
                 </div>
             </div>
         </>
