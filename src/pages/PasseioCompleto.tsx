@@ -13,7 +13,7 @@ export function PasseioCompleto() {
         <div className="flex justify-center pt-32 ">
             <div className="max-w-[1100px]">
                 <div className="flex flex-col items-center ">
-                    <div className="px-5 py-5 w-[320px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden">
+                    <div className="px-5 py-5 w-[325px] iphone:w-[375px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden">
                         <div className="flex justify-center items-center">
                             <Carousel className="flex justify-center">
                                 <CarouselContent>

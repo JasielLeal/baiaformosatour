@@ -1,7 +1,7 @@
 import { FaCheck, FaStar } from "react-icons/fa";
-import manguezal1 from '@/assets/PasseioManguezal/maguezal1.webp'
+import manguezal1 from '@/assets/PasseioManguezal/manguezal1.jpg'
 import manguezal2 from '@/assets/PasseioManguezal/manguezal2.webp'
-import manguezal3 from '@/assets/PasseioManguezal/manguezal3.webp'
+import manguezal3 from '@/assets/PasseioManguezal/manguezal3.png'
 import manguezal4 from '@/assets/PasseioManguezal/manguezal4.webp'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,21 +12,21 @@ export function PasseioMaguezal() {
         <div className="flex justify-center pt-32">
             <div className="max-w-[1100px]">
                 <div className="flex flex-col items-center ">
-                    <div className="px-5 py-5 w-[320px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden">
+                    <div className="px-5 py-5 w-[320px] iphone:w-[375px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden ob">
                         <div className="flex justify-center items-center">
                             <Carousel className="flex justify-center">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={manguezal1} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal1} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={manguezal2} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal2} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={manguezal3} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal3} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={manguezal4} alt="passeio manguezal" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={manguezal4} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                             </Carousel>
