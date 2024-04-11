@@ -4,7 +4,7 @@ import { Loca } from "@/components/Loca";
 import { Pacotes } from "@/components/Pacotes";
 
 
-import bannerv2 from '/bannerv3.png'
+import bannerv4 from '/bannerv4.png'
 
 
 export function Home() {
@@ -16,7 +16,7 @@ export function Home() {
             <Pacotes />
             <FeedBack />
             <div>
-                <img src={bannerv2} alt="bannerv3" className="h-[70]"/>
+                <img src={bannerv4} alt="bannerv4" className="h-[70]"/>
             </div>
             <Loca />
 
