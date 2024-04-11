@@ -1,4 +1,4 @@
-import { FaCheck, FaStar } from "react-icons/fa";
+import { FaArrowRight, FaCheck, FaStar } from "react-icons/fa";
 import manguezal1 from '@/assets/PasseioManguezal/manguezal1.jpg'
 import manguezal2 from '@/assets/PasseioManguezal/manguezal2.webp'
 import manguezal3 from '@/assets/PasseioManguezal/manguezal3.png'
@@ -14,7 +14,7 @@ export function PasseioMaguezal() {
                 <div className="flex flex-col items-center ">
                     <div className="px-5 py-5 w-[320px] iphone:w-[375px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden ob">
                         <div className="flex justify-center items-center">
-                            <Carousel className="flex justify-center">
+                            <Carousel className="flex justify-center flex-col">
                                 <CarouselContent>
                                     <CarouselItem>
                                         <img src={manguezal1} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
@@ -29,6 +29,7 @@ export function PasseioMaguezal() {
                                         <img src={manguezal4} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
+                                <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>
                             </Carousel>
 
 
@@ -53,6 +54,7 @@ export function PasseioMaguezal() {
                                     <div className="flex flex-col gap-2">
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Valor por pessoa</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Guia a sua disposição</p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Banho de argila</p>
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[280px]">

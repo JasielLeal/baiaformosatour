@@ -10,6 +10,7 @@ import { PorDoSol } from "./pages/PorDoSol";
 import { PacotesTotal } from "./pages/Pacotes";
 import { PasseioMaguezal } from "./pages/PasseioMaguezal";
 import { Termos } from "./pages/Termos";
+import { PasseioPipa } from "./pages/PasseioPipa";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
       { path: '/passeiocompleto', element: <PasseioCompleto />, },
       { path: '/passeiodemaguezal', element: <PasseioMaguezal /> },
       { path: '/passeiodebuggy', element: <PasseioDeBuggy /> },
+      { path: '/passeiopipa', element: <PasseioPipa /> },
       { path: '/pordosol', element: <PorDoSol /> },
       { path: '/pacotes', element: <PacotesTotal /> },
       { path: '/duvidas', element: <Duvidas /> },
