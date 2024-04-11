@@ -12,10 +12,10 @@ export function Termos() {
                     <div>
                         <p className="text-slate-800 font-semibold mb-2">A BaíaFormosaTour se compromete a fornecer:</p>
                         <div>
-                            <p className="mb-1">- Os equipamentos de segurançanecessários para suas atividades de aventura;</p>
+                            <p className="mb-1">- Os equipamentos de segurança necessários para suas atividades de aventura;</p>
                             <p className="mb-1">- Instrutores qualificados em cada atividade;</p>
                             <p className="mb-1">- Prestar pronto atendimento em eventuais
-                                casos de acidentes/</p>
+                                casos de acidentes</p>
                             <p className="mb-1">- Controlar os impactos da atividade sobre o
                                 meio ambiente e as comunidades envolvidas.</p>
                         </div>
@@ -27,7 +27,7 @@ export function Termos() {
                                 repassadas pelos instrutores e atendentes;</p>
                             <p className="mb-1">- Atender aos comandos dos instrutores.</p>
                             <p className="mb-1">- Prestar pronto atendimento em eventuais
-                                casos de acidentes/</p>
+                                casos de acidentes</p>
                             <p className="mb-1">- Estar na empresa no horário determinado
                                 usando roupa esportiva e confortavel</p>
                             <p className="mb-1">- Não ter ingerido bebida alcoólica antes das
@@ -37,7 +37,7 @@ export function Termos() {
                     <div>
                         <p className="text-slate-800 font-semibold my-10">Ao aceitar os termos da Baía Formosa Tour você declara que:</p>
 
-                        <p>para os devidos fins que participo das atividades e estou ciente dos riscos envolvidos.
+                        <p>Para os devidos fins que participo das atividades e estou ciente dos riscos envolvidos.
                             Isento a BaíaFormosaTour, empresa promotora das atividades, de qualquer responsabilidade por
                             eventuais danos causados a minha integridade física ou a meus equipamentos pessoais
                             durante tais práticas e
