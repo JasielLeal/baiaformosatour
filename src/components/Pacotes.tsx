@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import passeio1 from '@/assets/PasseioCompleto/passeiocompleto.webp'
 export function Pacotes() {
 
     useEffect(() => {
@@ -27,7 +27,7 @@ export function Pacotes() {
                             <div className="border p-5 rounded-lg bg-slate-800" data-aos="fade-down" data-aos-duration="1000" >
                                 <h1 className="font-bold text-white text-2xl">Passeio Completo</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
-                                <p className="text-white">Uma experiência excepcional para aqueles que buscam paisagens deslumbrantes e magníficas de forma radical e segura</p>
+                                <img src={passeio1} alt="passeio 1" className="object-cover"/>
                                 <h1 className="text-3xl font-bold text-white my-5">R$ 350,00</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Reservar Agora</Link>
