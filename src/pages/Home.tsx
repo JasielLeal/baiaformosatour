@@ -5,7 +5,7 @@ import { Pacotes } from "@/components/Pacotes";
 
 
 import bannerv4 from '/bannerv4.png'
-import iphone from '/iphone2.png'
+import iphone from '/iphone4.png'
 import iphone3 from '/iphone3.png'
 
 export function Home() {
