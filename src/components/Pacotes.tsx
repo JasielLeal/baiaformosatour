@@ -5,7 +5,9 @@ import { FaCheck } from "react-icons/fa";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import passeio1 from '@/assets/PasseioCompleto/passeiocompleto.webp'
+import passeio1 from '@/assets/tituloCompleto.png'
+import passeio2 from '@/assets/tituloPorDoSol.png'
+import passeio3 from '@/assets/tituloBuggy.png'
 export function Pacotes() {
 
     useEffect(() => {
@@ -27,7 +29,7 @@ export function Pacotes() {
                             <div className="border p-5 rounded-lg bg-slate-800" data-aos="fade-down" data-aos-duration="1000" >
                                 <h1 className="font-bold text-white text-2xl">Passeio Completo</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
-                                <img src={passeio1} alt="passeio 1" className="object-cover"/>
+                                <img src={passeio1} alt="passeio 1" className="object-cover rounded-md"/>
                                 <h1 className="text-3xl font-bold text-white my-5">R$ 350,00</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Reservar Agora</Link>
@@ -42,9 +44,11 @@ export function Pacotes() {
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
                                 </div>
                             </div>
+
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl mb-5">Por do Sol</h1>
-                                <p className="text-slate-600">Desfrute da magnífica beleza natural da cidade, contemplando uma vista panorâmica de tirar o fôlego.</p>
+                                <h1 className="font-bold text-slate-800 text-2xl">Por do Sol</h1>
+                                <Badge className="mb-5">Mais popular</Badge>
+                                <img src={passeio2} alt="passeio 1" className="object-cover rounded-md"/>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 120,00</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Reservar Agora</Link>
@@ -60,8 +64,9 @@ export function Pacotes() {
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl mb-5">Passeio de Buggy</h1>
-                                <p className="text-slate-600">Uma opção ideal para aqueles que procuram apreciar paisagens magníficas de forma mais tranquila, livre e segura.</p>
+                                <h1 className="font-bold text-slate-800 text-2xl">Passeio de Buggy</h1>
+                                <Badge className="mb-5">Mais popular</Badge>
+                                <img src={passeio3} alt="passeio 1" className="object-cover rounded-md"/>
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 420,00</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Reservar Agora</Link>
