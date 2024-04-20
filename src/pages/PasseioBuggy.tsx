@@ -3,6 +3,8 @@ import buggy1 from '@/assets/PasseioBuggy/buggy1.webp'
 import buggy2 from '@/assets/PasseioBuggy/buggy2.webp'
 import buggy3 from '@/assets/PasseioBuggy/buggy3.webp'
 import buggy4 from '@/assets/PasseioBuggy/buggy4.webp'
+import buggy5 from '@/assets/PasseioBuggy/buggy5.jpeg'
+import buggy6 from '@/assets/PasseioBuggy/buggy6.jpeg'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -27,6 +29,12 @@ export function PasseioDeBuggy() {
                                     </CarouselItem>
                                     <CarouselItem>
                                         <img src={buggy4} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={buggy5} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={buggy6} alt="passeio de buggy" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                 </CarouselContent>
                                 <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>
