@@ -1,11 +1,11 @@
 import { FaArrowRight, FaCheck, FaStar } from "react-icons/fa";
-import passeiocompleto from '@/assets/PasseioCompleto/PASSEIOCOMPLETO1.png'
-import passeiocompleto2 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO2.png'
-import passeiocompleto3 from '@/assets/PasseioCompleto/passeiocompleto3.webp'
-import passeiocompleto4 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO4.png'
-import passeiocompleto5 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO5.png'
-import passeiocompleto6 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO5.jpeg'
-import passeiocompleto7 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO6.jpg'
+import passeiocompleto from '@/assets/PasseioCompleto/img1.jpeg'
+import passeiocompleto2 from '@/assets/PasseioCompleto/passeiocompleto.webp'
+import passeiocompleto3 from '@/assets/PasseioCompleto/passeiocompleto4.webp'
+import passeiocompleto4 from '@/assets/PasseioCompleto/img2.jpg'
+import passeiocompleto5 from '@/assets/PasseioCompleto/img3.jpg'
+import passeiocompleto6 from '@/assets/PasseioCompleto/img4.jpeg'
+
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -21,26 +21,24 @@ export function PasseioCompleto() {
                             <Carousel className="flex justify-center flex-col">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover object-bottom" />
+                                        <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[700px] w-full xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={passeiocompleto3} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-right" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto3} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto4} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={passeiocompleto4} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto5} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={passeiocompleto5} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto6} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={passeiocompleto6} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
-                                    <CarouselItem>
-                                        <img src={passeiocompleto7} alt="passeio completo" className="lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
-                                    </CarouselItem>
+              
                                     
                                 </CarouselContent>
                                 <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>
@@ -73,14 +71,14 @@ export function PasseioCompleto() {
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[280px]">
-                                    <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">
                                         Realizar agendamento
                                     </Link>
                                 </Button>
                             </div>
                             <div className="mt-5 sm:flex gap-2 justify-center xl:block">
                                 <h1 className="text-slate-800 font-medium">Está com dúvidas?</h1>
-                                <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank" className="font-medium text-primary">
+                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank" className="font-medium text-primary">
                                     Fale com nossa equipe
                                 </Link>
 

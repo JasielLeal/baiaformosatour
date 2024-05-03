@@ -11,7 +11,7 @@ export function Sobre() {
                         <h1 className="font-bold text-3xl mb-2 text-slate-800">+ de 2130 Passeios já realizados</h1>
                         <p className="font-medium mb-2 text-slate-600">Descubra a essência da Baía Formosa connosco da Baía Formosa Tour! Desde 2019, estamos dedicados a oferecer uma experiência única e inesqucível. Nossa agência, agora especializada em turismo local, vai mais além dos passeios em quatro rodas, explorando as maravilhas da nossa cidade da melhor forma possível.</p>
                         <Button className="w-full flex justify-center" asChild>
-                            <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Clique para conhecer a gente</Link>
+                            <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Clique para conhecer a gente</Link>
                         </Button>
                     </div>
                     <div className="flex mt-10 md:justify-end justify-center">

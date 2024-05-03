@@ -87,7 +87,7 @@ export function Duvidas() {
                     <div className="flex flex-col items-center mt-10">
                         <h1 className="text-xl font-bold mb-3 text-slate-800">Ainda está com dúvidas?</h1>
                         <Button className="px-8 flex justify-center" asChild>
-                            <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">Fale com a nossa equipe</Link>
+                            <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Fale com a nossa equipe</Link>
                         </Button>
                     </div>
                 </div>

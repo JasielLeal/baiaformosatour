@@ -18,19 +18,19 @@ export function PasseioPipa() {
                             <Carousel className="flex justify-center flex-col">
                                 <CarouselContent>
                                     <CarouselItem>
-                                        <img src={pipa1} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover object-bottom" />
+                                        <img src={pipa1} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-bottom" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={pipa2} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover object-top" />
+                                        <img src={pipa2} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-top" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={pipa3} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover " />
+                                        <img src={pipa3} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={pipa4} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={pipa4} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={pipa5} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[500px] xl:w-[600px] rounded-lg object-cover" />
+                                        <img src={pipa5} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                                 <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>
@@ -64,14 +64,14 @@ export function PasseioPipa() {
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[280px]">
-                                    <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank">
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">
                                         Realizar agendamento
                                     </Link>
                                 </Button>
                             </div>
                             <div className="mt-5 sm:flex gap-2 justify-center xl:block">
                                 <h1 className="text-slate-800 font-medium">Está com dúvidas?</h1>
-                                <Link to='https://api.whatsapp.com/send/?phone=5584994511101&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+passeio+de+Quadriciclo+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0' target="_blank" className="font-medium text-primary">
+                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank" className="font-medium text-primary">
                                     Fale com nossa equipe
                                 </Link>
 

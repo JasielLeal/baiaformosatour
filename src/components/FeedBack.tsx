@@ -255,7 +255,7 @@ export function FeedBack() {
                     </div>
 
                     <Button variant={'default'} asChild className="mt-10">
-                        <Link to='https://www.google.com/maps/place/Passeios+em+Ba%C3%ADa+Formosa+de+Quadriciclo+e+Buggy-+Ba%C3%ADa+Formosa+tour/@-6.3694837,-35.0027684,17z/data=!4m14!1m7!3m6!1s0x7b29d1999773fc5:0x9dc64592cc02eb0!2sPasseios+em+Ba%C3%ADa+Formosa+de+Quadriciclo+e+Buggy-+Ba%C3%ADa+Formosa+tour!8m2!3d-6.3694837!4d-35.0027684!16s%2Fg%2F11fm3wgqvd!3m5!1s0x7b29d1999773fc5:0x9dc64592cc02eb0!8m2!3d-6.3694837!4d-35.0027684!16s%2Fg%2F11fm3wgqvd?entry=ttu' target="_blank">Veja nossas avaliações aqui</Link>
+                        <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Veja nossas avaliações aqui</Link>
                     </Button>
                 </div>
             </div>
