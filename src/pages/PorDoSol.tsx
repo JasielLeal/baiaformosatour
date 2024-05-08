@@ -3,6 +3,8 @@ import pordosol1 from '@/assets/PorDoSol/pordosol1.webp'
 import pordosol2 from '@/assets/PorDoSol/pordosol2.webp'
 import pordosol3 from '@/assets/PorDoSol/pordosol3.webp'
 import pordosol4 from '@/assets/PorDoSol/pordosol4.webp'
+import pordosol5 from '@/assets/PorDoSol/img1.jpeg'
+import pordosol6 from '@/assets/PorDoSol/img2.jpeg'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -17,7 +19,13 @@ export function PorDoSol() {
                             <Carousel className="flex justify-center flex-col">
                                 <CarouselContent>
                                     <CarouselItem>
+                                        <img src={pordosol5} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
                                         <img src={pordosol1} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pordosol6} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-left" />
                                     </CarouselItem>
                                     <CarouselItem>
                                         <img src={pordosol2} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
@@ -44,7 +52,7 @@ export function PorDoSol() {
                                 <div>
                                     <Badge className="mt-10">Recomendado</Badge>
                                     <h1 className="text-3xl font-bold text-slate-800">Por do Sol</h1>
-                                    <p className="text-2xl font-bold text-slate-800">R$ 119,99</p>
+                                    <p className="text-2xl font-bold text-slate-800">R$ 149,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
                                         <FaStar />

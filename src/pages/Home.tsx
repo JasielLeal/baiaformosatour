@@ -2,6 +2,7 @@ import { FeedBack } from "@/components/FeedBack";
 import { Loca } from "@/components/Loca";
 import { Pacotes } from "@/components/Pacotes";
 
+
 import bannerv4 from '/bannerv4.png'
 import iphone from '/iphone5.png'
 import iphone3 from '/iphone5.png'

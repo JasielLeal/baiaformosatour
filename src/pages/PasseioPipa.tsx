@@ -4,6 +4,13 @@ import pipa2 from '@/assets/PasseioPipa/pipa2.webp'
 import pipa3 from '@/assets/PasseioPipa/pipa3.webp'
 import pipa4 from '@/assets/PasseioPipa/pipa4.webp'
 import pipa5 from '@/assets/PasseioPipa/PASSEIOPIPA1.png'
+import pipa6 from '@/assets/PasseioPipa/img1.jpeg'
+import pipa7 from '@/assets/PasseioPipa/img2.jpeg'
+import pipa8 from '@/assets/PasseioPipa/img3.jpeg'
+import pipa9 from '@/assets/PasseioPipa/img4.jpeg'
+
+
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -31,6 +38,18 @@ export function PasseioPipa() {
                                     </CarouselItem>
                                     <CarouselItem>
                                         <img src={pipa5} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pipa6} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pipa7} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pipa8} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={pipa9} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                 </CarouselContent>
                                 <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>

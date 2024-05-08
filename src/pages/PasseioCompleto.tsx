@@ -1,10 +1,16 @@
 import { FaArrowRight, FaCheck, FaStar } from "react-icons/fa";
 import passeiocompleto from '@/assets/PasseioCompleto/img1.jpeg'
 import passeiocompleto2 from '@/assets/PasseioCompleto/passeiocompleto.webp'
-import passeiocompleto3 from '@/assets/PasseioCompleto/passeiocompleto4.webp'
 import passeiocompleto4 from '@/assets/PasseioCompleto/img2.jpg'
 import passeiocompleto5 from '@/assets/PasseioCompleto/img3.jpg'
 import passeiocompleto6 from '@/assets/PasseioCompleto/img4.jpeg'
+import passeiocompleto7 from '@/assets/PasseioCompleto/img5.jpg'
+import passeiocompleto8 from '@/assets/PasseioCompleto/img6.jpeg'
+import passeiocompleto9 from '@/assets/PasseioCompleto/img7.jpeg'
+import passeiocompleto10 from '@/assets/PasseioCompleto/img8.jpg'
+import passeiocompleto11 from '@/assets/PasseioCompleto/img9.jpeg'
+import passeiocompleto12 from '@/assets/PasseioCompleto/img10.jpeg'
+import passeiocompleto13 from '@/assets/PasseioCompleto/img11.jpeg'
 
 
 import { Badge } from "@/components/ui/badge";
@@ -24,8 +30,9 @@ export function PasseioCompleto() {
                                         <img src={passeiocompleto} alt="passeio completo" className="lg:w-[500px] h-[700px] w-full xl:w-[600px] rounded-lg object-cover" />
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src={passeiocompleto3} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-right" />
+                                        <img src={passeiocompleto7} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
+
                                     <CarouselItem>
                                         <img src={passeiocompleto2} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
@@ -33,10 +40,29 @@ export function PasseioCompleto() {
                                         <img src={passeiocompleto4} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
+                                        <img src={passeiocompleto13} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto11} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover object-left" />
+                                    </CarouselItem>
+                                    <CarouselItem>
                                         <img src={passeiocompleto5} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
                                     <CarouselItem>
                                         <img src={passeiocompleto6} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    
+                                    <CarouselItem>
+                                        <img src={passeiocompleto8} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto9} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto10} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src={passeiocompleto12} alt="passeio completo" className="lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover " />
                                     </CarouselItem>
               
                                     
