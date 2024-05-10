@@ -62,7 +62,7 @@ export function PasseioCompleto() {
                                 <img src={Passeiocompleto12} className='w-full h-full' />
                             </SwiperSlide>
                         </Swiper>
-                        <div className="flex flex-col px-5 items-center">
+                        <div className="flex flex-col px-5">
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>

@@ -1,43 +1,41 @@
-import { FaArrowRight, FaCheck, FaStar } from "react-icons/fa";
-import manguezal1 from '@/assets/PasseioManguezal/manguezal1.jpg'
-import manguezal2 from '@/assets/PasseioManguezal/manguezal2.webp'
-import manguezal3 from '@/assets/PasseioManguezal/manguezal3.png'
-import manguezal4 from '@/assets/PasseioManguezal/manguezal4.webp'
+import { FaCheck, FaStar } from "react-icons/fa";
+
+import Manguezal1 from '@/assets/PasseioManguezal/MANGUEZAL1.png'
+import Manguezal2 from '@/assets/PasseioManguezal/MANGUEZAL2.png'
+import Manguezal3 from '@/assets/PasseioManguezal/MANGUEZAL3.png'
+import Manguezal4 from '@/assets/PasseioManguezal/MANGUEZAL4.png'
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 export function PasseioMaguezal() {
     return (
-        <div className="flex justify-center pt-32">
-            <div className="max-w-[1100px]">
-                <div className="flex flex-col items-center ">
-                    <div className="px-5 py-5 w-[320px] iphone:w-[375px] sm:w-[500px] lg:flex lg:w-[1000px] gap-10 xl:w-[1100px] rounded-md overflow-hidden ob">
-                        <div className="flex justify-center items-center">
-                            <Carousel className="flex justify-center flex-col">
-                                <CarouselContent>
-                                    <CarouselItem>
-                                        <img src={manguezal1} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
-                                    </CarouselItem>
-                                    <CarouselItem>
-                                        <img src={manguezal2} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
-                                    </CarouselItem>
-                                    <CarouselItem>
-                                        <img src={manguezal3} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
-                                    </CarouselItem>
-                                    <CarouselItem>
-                                        <img src={manguezal4} alt="passeio manguezal" className="iphone:w-[350px] lg:w-[500px] h-[700px] xl:w-[600px] rounded-lg object-cover" />
-                                    </CarouselItem>
-                                </CarouselContent>
-                                <p className="flex items-center gap-2 text-slate-800 font-medium mt-4 md:px ">Arraste pro lado <FaArrowRight /></p>
-                            </Carousel>
+        <div className='lg:flex lg:justify-center'>
+            <div className='lg:max-w-[1100px]'>
+                <div className='lg:flex lg:w-full lg:justify-center pt-24 lg:max-w-[1100px]'>
+                    <div className='lg:grid lg:grid-cols-2 lg:max-w-[1100px] gap-20'>
+                        <Swiper slidesPerView={1} pagination={{ clickable: true }} modules={[Pagination]} className='w-full h-[500px] md:w-[500px] md:h-[600px]'>
+                            <SwiperSlide>
+                                <img src={Manguezal1} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Manguezal2} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Manguezal3} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Manguezal4} className='w-full h-full' />
+                            </SwiperSlide>
 
-
-                        </div>
-                        <div className="flex flex-col justify-between w-[300px] lg:w-[500px]">
+                        </Swiper>
+                        <div className="flex flex-col px-5 items-center lg:items-start">
                             <div>
                                 <div>
-                                    <Badge className="mt-10">Recomendado</Badge>
+                                    <Badge className="mt-5">Recomendado</Badge>
                                     <h1 className="text-3xl font-bold text-slate-800">Passeio Ecológico de Maguezal</h1>
                                     <p className="text-2xl font-bold text-slate-800">R$ 29,99</p>
                                     <div className="flex text-primary">
@@ -57,13 +55,13 @@ export function PasseioMaguezal() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Banho de argila</p>
                                     </div>
                                 </div>
-                                <Button asChild className="mt-10 w-[280px]">
+                                <Button asChild className="mt-10 w-[290px]">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">
                                         Realizar agendamento
                                     </Link>
                                 </Button>
                             </div>
-                            <div className="mt-5 sm:flex gap-2 justify-center xl:block">
+                            <div className="mt-5">
                                 <h1 className="text-slate-800 font-medium">Está com dúvidas?</h1>
                                 <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank" className="font-medium text-primary">
                                     Fale com nossa equipe
@@ -71,27 +69,24 @@ export function PasseioMaguezal() {
 
                             </div>
                         </div>
-
                     </div>
-                    <div className="px-5 py-10">
-                        <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                        <p className="text-slate-600">- Descubra a tranquilidade de Sagi em um passeio de canoa que oferece uma conexão maravilhosa com a natureza intocada. Navegue pelas águas calmas do Rio Guajú, deixando-se envolver pela paz que envolve a região.</p>
-                        <p className="text-slate-600 mt-2">- Experimente a sensação revitalizante de mergulhar nas águas cristalinas do belíssimo Rio Guaju, enriquecidas com banho de argila rejuvenescedora. Deixe que a argila purifique sua pele, renovando-a e revitalizando-a enquanto você se entrega ao bem-estar que só a natureza pode proporcionar.</p>
-                        <p className="text-slate-600 mt-2">- Desperte seus sentidos, revigore sua mente e renove sua alma neste refúgio de serenidade. Reserve seu passeio de canoa em Sagi hoje mesmo e permita-se mergulhar em um oásis de tranquilidade e beleza natural. Sua jornada de paz e renovação espera por você.</p>
-                    </div>
-
-                    
                 </div>
                 <div className="px-5 py-10">
-                        <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
-                        <p className="text-slate-600">- Roupas confortáveis</p>
-                        <p className="text-slate-600">- Roupas de banho</p>
-                        <p className="text-slate-600">- Toalhas</p>
-                        <p className="text-slate-600">- Protetor Solar</p>
-                        <p className="text-slate-600">- Óculos de sol</p>
-                        <p className="text-slate-600">- Chapéu ou bone</p>
-                        <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
-                    </div>
+                    <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
+                    <p className="text-slate-600">- Descubra a tranquilidade de Sagi em um passeio de canoa que oferece uma conexão maravilhosa com a natureza intocada. Navegue pelas águas calmas do Rio Guajú, deixando-se envolver pela paz que envolve a região.</p>
+                    <p className="text-slate-600 mt-2">- Experimente a sensação revitalizante de mergulhar nas águas cristalinas do belíssimo Rio Guaju, enriquecidas com banho de argila rejuvenescedora. Deixe que a argila purifique sua pele, renovando-a e revitalizando-a enquanto você se entrega ao bem-estar que só a natureza pode proporcionar.</p>
+                    <p className="text-slate-600 mt-2">- Desperte seus sentidos, revigore sua mente e renove sua alma neste refúgio de serenidade. Reserve seu passeio de canoa em Sagi hoje mesmo e permita-se mergulhar em um oásis de tranquilidade e beleza natural. Sua jornada de paz e renovação espera por você.</p>
+                </div>
+                <div className="px-5 py-10">
+                    <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
+                    <p className="text-slate-600">- Roupas confortáveis</p>
+                    <p className="text-slate-600">- Roupas de banho</p>
+                    <p className="text-slate-600">- Toalhas</p>
+                    <p className="text-slate-600">- Protetor Solar</p>
+                    <p className="text-slate-600">- Óculos de sol</p>
+                    <p className="text-slate-600">- Chapéu ou bone</p>
+                    <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
+                </div>
             </div>
         </div>
     )
