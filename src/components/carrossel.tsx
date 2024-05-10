@@ -4,10 +4,10 @@ import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules';
-import img1 from '/viva.png'
+import img1 from '/viva.webp'
 import { Hero } from './Hero'
-import bannerCelular from '/viaCelularV2.png'
-import bannerTablet from '/viaTablet.png'
+import bannerCelular from '/viaCelularV2.webp'
+import bannerTablet from '/viaTablet.webp'
 
 export function Carrosel() {
     return (
