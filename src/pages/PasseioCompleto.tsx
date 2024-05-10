@@ -10,6 +10,7 @@ import Passeiocompleto9 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO9.png'
 import Passeiocompleto10 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO10.png'
 import Passeiocompleto11 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO11.png'
 import Passeiocompleto12 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO12.png'
+import Passeiocompleto13 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO13.png'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -60,6 +61,9 @@ export function PasseioCompleto() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={Passeiocompleto12} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Passeiocompleto13} className='w-full h-full' />
                             </SwiperSlide>
                         </Swiper>
                         <div className="flex flex-col px-5">
