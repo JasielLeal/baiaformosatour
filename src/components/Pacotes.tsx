@@ -41,7 +41,7 @@ export function Pacotes() {
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Praias Desertas</p>
                                 </div>
                             </div>
 
@@ -78,7 +78,7 @@ export function Pacotes() {
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por Buggy (até 4 pessoas)</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Bugueiro a sua disposição</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
+                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Praias Desertas</p>
                                 </div>
                             </div>
 

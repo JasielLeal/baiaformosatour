@@ -87,7 +87,7 @@ export function PasseioCompleto() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Valor por quadriciclo ( 2 pessoas)</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Guia a sua disposição</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Fotos / Vídeos Gratuitos</p>
-                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Paias Desertas</p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Praias Desertas</p>
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[290px]">

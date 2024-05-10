@@ -62,7 +62,7 @@ export function PasseioDeBuggy() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Valor do buggy ( 4 pessoas)</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Bugueiro a sua disposição</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Fotos / Vídeos Gratuitos</p>
-                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Paias Desertas</p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Praias Desertas</p>
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[290px]">

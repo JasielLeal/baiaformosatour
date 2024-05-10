@@ -9,7 +9,7 @@ import passeio1 from '@/assets/tituloCompleto.png'
 import passeio2 from '@/assets/tituloPorDoSol.png'
 import passeio3 from '@/assets/tituloBuggy.png'
 import passeio4 from '@/assets/PasseioManguezal/MANGUEZAL2.png'
-import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA6.png'
+import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA1.png'
 
 export function PacotesTotal() {
 
@@ -44,7 +44,7 @@ export function PacotesTotal() {
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
                                     <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
+                                    <p className="flex items-center gap-2 text-white"><span className="text-primary"><FaCheck /></span>37 km de Praias Desertas</p>
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
@@ -80,7 +80,7 @@ export function PacotesTotal() {
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por Buggy (até 4 pessoas)</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Bugueiro a sua disposição</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Paias Desertas</p>
+                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>37 km de Praias Desertas</p>
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">

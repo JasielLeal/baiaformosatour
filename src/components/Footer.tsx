@@ -28,7 +28,7 @@ export function Footer() {
 
                         <div className="mt-20 lg:mt-10">
                             <h1 className="font-semibold text-accent uppercase">Serviços prestados</h1>
-                            <p className="text-input text-medium"> - Passeio de quadricículos</p>
+                            <p className="text-input text-medium"> - Passeio de Quadriciclo</p>
                             <p className="text-input text-medium">- Passeio de buggy</p>
                             <p className="text-input text-medium"> - Passeio de barco</p>
                         </div>
