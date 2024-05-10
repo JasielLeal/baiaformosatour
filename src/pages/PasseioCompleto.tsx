@@ -20,10 +20,10 @@ import { Pagination } from "swiper/modules";
 import { FaCheck, FaStar } from 'react-icons/fa'
 export function PasseioCompleto() {
     return (
-        <div className='flex justify-center'>
-            <div className='md:max-w-[1100px]'>
-                <div className='md:flex md:w-full md:justify-center pt-24 md:max-w-[1100px]'>
-                    <div className='md:grid md:grid-cols-2 md:max-w-[1100px] gap-20'>
+        <div className='lg:flex lg:justify-center'>
+            <div className='lg:max-w-[1100px]'>
+                <div className='lg:flex lg:w-full lg:justify-center pt-24 lg:max-w-[1100px]'>
+                    <div className='lg:grid lg:grid-cols-2 lg:max-w-[1100px] gap-20'>
                         <Swiper slidesPerView={1} pagination={{ clickable: true }} modules={[Pagination]} className='w-full h-[500px] md:w-[500px] md:h-[600px]'>
                             <SwiperSlide>
                                 <img src={Passeiocompleto1} className='w-full h-full' />
@@ -62,7 +62,7 @@ export function PasseioCompleto() {
                                 <img src={Passeiocompleto12} className='w-full h-full' />
                             </SwiperSlide>
                         </Swiper>
-                        <div className="flex flex-col px-5 ">
+                        <div className="flex flex-col px-5 items-center">
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
@@ -86,7 +86,7 @@ export function PasseioCompleto() {
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Paias Desertas</p>
                                     </div>
                                 </div>
-                                <Button asChild className="mt-10 w-[300px]">
+                                <Button asChild className="mt-10 w-[290px]">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">
                                         Realizar agendamento
                                     </Link>
