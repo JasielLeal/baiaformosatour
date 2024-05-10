@@ -2,7 +2,6 @@ import { FaCheck, FaStar } from "react-icons/fa";
 
 import Manguezal1 from '@/assets/PasseioManguezal/MANGUEZAL1.png'
 import Manguezal2 from '@/assets/PasseioManguezal/MANGUEZAL2.png'
-import Manguezal3 from '@/assets/PasseioManguezal/MANGUEZAL3.png'
 import Manguezal4 from '@/assets/PasseioManguezal/MANGUEZAL4.png'
 
 import { Badge } from "@/components/ui/badge";
@@ -24,9 +23,7 @@ export function PasseioMaguezal() {
                             <SwiperSlide>
                                 <img src={Manguezal2} className='w-full h-full' />
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={Manguezal3} className='w-full h-full' />
-                            </SwiperSlide>
+
                             <SwiperSlide>
                                 <img src={Manguezal4} className='w-full h-full' />
                             </SwiperSlide>
