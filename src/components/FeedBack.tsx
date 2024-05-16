@@ -11,6 +11,11 @@ import allan from '@/assets/allan.webp'
 import rodrigo from '@/assets/unnamed.png'
 import ronaldo from '@/assets/Ronaldo.png'
 import Shaquiria from '@/assets/Shaquiria.png'
+import janine from '@/assets/Janine.png'
+import Meyre from "@/assets/Meyre.png"
+import wilton from "@/assets/Wilton.png"
+import MariaFigueirosa from "@/assets/MariaFigueirosa.png"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -31,6 +36,142 @@ export function FeedBack() {
                     <div className="flex justify-center">
                         <Carousel className="w-[300px] md:hidden">
                             <CarouselContent>
+
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.webp" alt="logo do google" />
+                                                </div>
+                                                Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={rodrigo} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Rodrigo Damasceno</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
+
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.webp" alt="logo do google" />
+                                                </div>
+                                                Incrível!
+                                                Sempre quis fazer esse passeio. Amei tanto que repeti, e repetiria a dose mil vezes …
+                                                Sem contar que fizemos o passeio com o Júlio, menino bom, atencioso, simpático e nos deixou super a vontade. Além de ser nosso melhor fotografo rs
+                                                INCRÍVEL! 🥰🏝️</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={janine} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Janine Bernardino</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
+
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.webp" alt="logo do google" />
+                                                </div>
+                                                Melhor experiência possível, um passeio incrível que já fiz três vezes, e vou continuar fazendo 😍👏🏼</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={Meyre} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Meyre Andrade</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
+
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.webp" alt="logo do google" />
+                                                </div>
+                                                Boa tarde,
+                                                Experiência excelente, tanto o João como o Júlio são muitos atenciosos e competentes, vou voltar com certeza assim que puder, sou de Recife e gosto muito dos serviços deles, já indiquei e indico sempre.</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={wilton} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Wilton Guedes</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
+
+                                <CarouselItem>
+                                    <Card className="h-[500px] flex flex-col justify-between">
+                                        <CardHeader>
+                                            <CardTitle className="text-base">
+                                                <div className="w-20">
+                                                    <img src="google.webp" alt="logo do google" />
+                                                </div>
+                                                Passeio maravilhoso. Voltarei com certeza! Equipe muito organizada e prestativa. Alugamos quadriciclos e fomos sendo guiados, fazendo o passeio a beira mar. Julio, o guia nos acompanhou em todo o trajeto e nos deixou bem a vontade.
+                                                O famoso espetinho de lagosta é realmente maravilhoso.
+                                                Indico muito a Baía Formosa Quadriciclos para fazer este passeio com segurança.</CardTitle>
+                                            <CardDescription className="flex text-yellow-400">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent className="flex gap-4 items-center">
+                                            <Avatar>
+                                                <AvatarImage src={MariaFigueirosa} alt="Foto de perfil pessoal" />
+                                                <AvatarFallback>CN</AvatarFallback>
+                                            </Avatar>
+                                            <p className="italic">Maria Carolina Figueiroa</p>
+                                        </CardContent>
+                                    </Card>
+                                </CarouselItem>
 
                                 <CarouselItem>
                                     <Card className="h-[500px] flex flex-col justify-between">
@@ -111,6 +252,7 @@ export function FeedBack() {
                                         </CardContent>
                                     </Card>
                                 </CarouselItem>
+
                                 <CarouselItem>
                                     <Card className="h-[500px] flex flex-col justify-between">
                                         <CardHeader>
@@ -133,32 +275,6 @@ export function FeedBack() {
                                                 <AvatarFallback>CN</AvatarFallback>
                                             </Avatar>
                                             <p className="italic">Letícia Renovato</p>
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
-
-                                <CarouselItem>
-                                    <Card className="h-[500px] flex flex-col justify-between">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">
-                                                <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
-                                                </div>
-                                                Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
-                                            <CardDescription className="flex text-yellow-400">
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                            </CardDescription>
-                                        </CardHeader>
-                                        <CardContent className="flex gap-4 items-center">
-                                            <Avatar>
-                                                <AvatarImage src={rodrigo} alt="Foto de perfil pessoal" />
-                                                <AvatarFallback>CN</AvatarFallback>
-                                            </Avatar>
-                                            <p className="italic">Rodrigo Damasceno</p>
                                         </CardContent>
                                     </Card>
                                 </CarouselItem>
@@ -224,6 +340,143 @@ export function FeedBack() {
                         <div className="flex justify-center items-center px-5" >
                             <Carousel className="w-[700px]">
                                 <CarouselContent >
+
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={rodrigo} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Rodrigo Damasceno</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Incrível!
+                                                    Sempre quis fazer esse passeio. Amei tanto que repeti, e repetiria a dose mil vezes …
+                                                    Sem contar que fizemos o passeio com o Júlio, menino bom, atencioso, simpático e nos deixou super a vontade. Além de ser nosso melhor fotografo rs
+                                                    INCRÍVEL! 🥰🏝️</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={janine} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Janine Bernardino</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Melhor experiência possível, um passeio incrível que já fiz três vezes, e vou continuar fazendo 😍👏🏼</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={Meyre} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Meyre Andrade</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Boa tarde,
+                                                    Experiência excelente, tanto o João como o Júlio são muitos atenciosos e competentes, vou voltar com certeza assim que puder, sou de Recife e gosto muito dos serviços deles, já indiquei e indico sempre.</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={wilton} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Wilton Guedes</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+
+                                    <CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Passeio maravilhoso. Voltarei com certeza! Equipe muito organizada e prestativa. Alugamos quadriciclos e fomos sendo guiados, fazendo o passeio a beira mar. Julio, o guia nos acompanhou em todo o trajeto e nos deixou bem a vontade.
+                                                    O famoso espetinho de lagosta é realmente maravilhoso.
+                                                    Indico muito a Baía Formosa Quadriciclos para fazer este passeio com segurança.</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={MariaFigueirosa} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Maria Carolina Figueiroa</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
+
                                     <CarouselItem >
                                         <Card className="h-[300px] flex flex-col justify-between">
                                             <CardHeader>
@@ -303,6 +556,7 @@ export function FeedBack() {
                                             </CardContent>
                                         </Card>
                                     </CarouselItem>
+
                                     <CarouselItem>
                                         <Card className="h-[300px] flex flex-col justify-between">
                                             <CardHeader>
@@ -325,31 +579,6 @@ export function FeedBack() {
                                                     <AvatarFallback>CN</AvatarFallback>
                                                 </Avatar>
                                                 <p className="italic">Letícia Renovato</p>
-                                            </CardContent>
-                                        </Card>
-                                    </CarouselItem>
-                                    <CarouselItem>
-                                        <Card className="h-[300px] flex flex-col justify-between">
-                                            <CardHeader>
-                                                <CardTitle className="text-base">
-                                                    <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
-                                                    </div>
-                                                    Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
-                                                <CardDescription className="flex text-yellow-400">
-                                                    <FaStar />
-                                                    <FaStar />
-                                                    <FaStar />
-                                                    <FaStar />
-                                                    <FaStar />
-                                                </CardDescription>
-                                            </CardHeader>
-                                            <CardContent className="flex gap-4 items-center">
-                                                <Avatar>
-                                                    <AvatarImage src={rodrigo} alt="Foto de perfil pessoal" />
-                                                    <AvatarFallback>CN</AvatarFallback>
-                                                </Avatar>
-                                                <p className="italic">Rodrigo Damasceno</p>
                                             </CardContent>
                                         </Card>
                                     </CarouselItem>
@@ -381,30 +610,30 @@ export function FeedBack() {
                                     </CarouselItem>
 
                                     <CarouselItem>
-                                    <Card className="h-[300px] flex flex-col justify-between">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">
-                                                <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
-                                                </div>
-                                                Passeios incríveis e maravilhosos conhecendo lugares encantados em baía formosa a empresa presta um trabalho de responsabilidade e competência super indico .</CardTitle>
-                                            <CardDescription className="flex text-yellow-400">
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                                <FaStar />
-                                            </CardDescription>
-                                        </CardHeader>
-                                        <CardContent className="flex gap-4 items-center">
-                                            <Avatar>
-                                                <AvatarImage src={Shaquiria} alt="Foto de perfil pessoal" />
-                                                <AvatarFallback>CN</AvatarFallback>
-                                            </Avatar>
-                                            <p className="italic">Shaquiria Silva</p>
-                                        </CardContent>
-                                    </Card>
-                                </CarouselItem>
+                                        <Card className="h-[300px] flex flex-col justify-between">
+                                            <CardHeader>
+                                                <CardTitle className="text-base">
+                                                    <div className="w-20">
+                                                        <img src="google.webp" alt="logo do google" />
+                                                    </div>
+                                                    Passeios incríveis e maravilhosos conhecendo lugares encantados em baía formosa a empresa presta um trabalho de responsabilidade e competência super indico .</CardTitle>
+                                                <CardDescription className="flex text-yellow-400">
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                    <FaStar />
+                                                </CardDescription>
+                                            </CardHeader>
+                                            <CardContent className="flex gap-4 items-center">
+                                                <Avatar>
+                                                    <AvatarImage src={Shaquiria} alt="Foto de perfil pessoal" />
+                                                    <AvatarFallback>CN</AvatarFallback>
+                                                </Avatar>
+                                                <p className="italic">Shaquiria Silva</p>
+                                            </CardContent>
+                                        </Card>
+                                    </CarouselItem>
 
                                 </CarouselContent>
                                 <CarouselPrevious className="flex justify-center items-center" />
