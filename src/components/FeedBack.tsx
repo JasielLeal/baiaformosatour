@@ -42,7 +42,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -68,7 +68,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Incrível!
                                                 Sempre quis fazer esse passeio. Amei tanto que repeti, e repetiria a dose mil vezes …
@@ -97,7 +97,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Melhor experiência possível, um passeio incrível que já fiz três vezes, e vou continuar fazendo 😍👏🏼</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -123,7 +123,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Boa tarde,
                                                 Experiência excelente, tanto o João como o Júlio são muitos atenciosos e competentes, vou voltar com certeza assim que puder, sou de Recife e gosto muito dos serviços deles, já indiquei e indico sempre.</CardTitle>
@@ -150,7 +150,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Passeio maravilhoso. Voltarei com certeza! Equipe muito organizada e prestativa. Alugamos quadriciclos e fomos sendo guiados, fazendo o passeio a beira mar. Julio, o guia nos acompanhou em todo o trajeto e nos deixou bem a vontade.
                                                 O famoso espetinho de lagosta é realmente maravilhoso.
@@ -178,7 +178,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google"width={512} height={300}/>
                                                 </div>
                                                 Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -204,7 +204,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
                                             </CardTitle>
@@ -231,7 +231,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Excelente opção de passeios de quadriciclos em Baia Formosa.
                                                 Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
@@ -258,7 +258,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.png" alt="logo do google" />
+                                                    <img src="google.png" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Passeio maravilhosoo, ponto de apoio para almoço que tinha uma comida muito saborosa tambem (Nativa). Com certeza irei repetir, obrigada a Julio por nos levar nesse passeio incrivel ❤️</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -284,7 +284,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 O passeio é completo, um dos melhores do Rio Grande do Norte, eu acho que seja o melhor. Praia perfeita, aquela faixa de areia extensa, passeio super tranquilo, sem falar dos guias, altamente capacitados e sabem o que fazem. Foi o passeio!!!</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -310,7 +310,7 @@ export function FeedBack() {
                                         <CardHeader>
                                             <CardTitle className="text-base">
                                                 <div className="w-20">
-                                                    <img src="google.webp" alt="logo do google" />
+                                                    <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                 </div>
                                                 Passeios incríveis e maravilhosos conhecendo lugares encantados em baía formosa a empresa presta um trabalho de responsabilidade e competência super indico .</CardTitle>
                                             <CardDescription className="flex text-yellow-400">
@@ -346,7 +346,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Os caras são fera demais! Senti muita segurança pelo trajeto que fazem. O caminho é lindo e o guia tira excelentes fotos! Esse passeio é obrigatório em BF e o pessoal é especialista em trabalhar bem. Minha experiência foi excepcional</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -372,7 +372,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Incrível!
                                                     Sempre quis fazer esse passeio. Amei tanto que repeti, e repetiria a dose mil vezes …
@@ -401,7 +401,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Melhor experiência possível, um passeio incrível que já fiz três vezes, e vou continuar fazendo 😍👏🏼</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -427,7 +427,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Boa tarde,
                                                     Experiência excelente, tanto o João como o Júlio são muitos atenciosos e competentes, vou voltar com certeza assim que puder, sou de Recife e gosto muito dos serviços deles, já indiquei e indico sempre.</CardTitle>
@@ -454,7 +454,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Passeio maravilhoso. Voltarei com certeza! Equipe muito organizada e prestativa. Alugamos quadriciclos e fomos sendo guiados, fazendo o passeio a beira mar. Julio, o guia nos acompanhou em todo o trajeto e nos deixou bem a vontade.
                                                     O famoso espetinho de lagosta é realmente maravilhoso.
@@ -482,7 +482,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Experiência magnífica, um passeio que sem dúvidas, vale muitooo a pena, com as melhores paisagem (uma mais linda que a outra), com o guia que deixa o passeio melhor ainda, muito prestativo, que mostra cada lugares com excelência. Uma empresa que garante vivências únicas!!</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -508,7 +508,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     <p>Com toda certeza o melhor passeio que já fiz, mostrando a beleza de Baía Formosa e com um profissional que tornou a experiência ainda mais incrível! Grata demais por cada momento, fiquei ainda mais apaixonada por esse lugar.🧡🧡🧡🧡 …</p>
                                                 </CardTitle>
@@ -535,7 +535,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Excelente opção de passeios de quadriciclos em Baia Formosa.
                                                     Ótimos profissionais e veículos, a ave tira vale muito a pena.</CardTitle>
@@ -562,7 +562,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Passeio maravilhosoo, ponto de apoio para almoço que tinha uma comida muito saborosa tambem (Nativa). Com certeza irei repetir, obrigada a Julio por nos levar nesse passeio incrivel ❤️</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -588,7 +588,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300} />
                                                     </div>
                                                     O passeio é completo, um dos melhores do Rio Grande do Norte, eu acho que seja o melhor. Praia perfeita, aquela faixa de areia extensa, passeio super tranquilo, sem falar dos guias, altamente capacitados e sabem o que fazem. Foi o passeio!!!</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
@@ -614,7 +614,7 @@ export function FeedBack() {
                                             <CardHeader>
                                                 <CardTitle className="text-base">
                                                     <div className="w-20">
-                                                        <img src="google.webp" alt="logo do google" />
+                                                        <img src="google.webp" alt="logo do google" width={512} height={300}/>
                                                     </div>
                                                     Passeios incríveis e maravilhosos conhecendo lugares encantados em baía formosa a empresa presta um trabalho de responsabilidade e competência super indico .</CardTitle>
                                                 <CardDescription className="flex text-yellow-400">
