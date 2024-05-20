@@ -1,5 +1,4 @@
 import { FeedBack } from "@/components/FeedBack";
-import { Loca } from "@/components/Loca";
 import { Pacotes } from "@/components/Pacotes";
 
 
