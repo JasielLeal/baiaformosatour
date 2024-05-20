@@ -1,11 +1,11 @@
-import {FaCheck, FaStar } from "react-icons/fa";
+import { FaCheck, FaStar } from "react-icons/fa";
 
-import Pordosol1 from '@/assets/PorDoSol/PORDOSOL1.png'
-import Pordosol2 from '@/assets/PorDoSol/PORDOSOL2.png'
-import Pordosol3 from '@/assets/PorDoSol/PORDOSOL3.png'
-import Pordosol4 from '@/assets/PorDoSol/PORDOSOL4.png'
-import Pordosol5 from '@/assets/PorDoSol/PORDOSOL5.png'
-import Pordosol6 from '@/assets/PorDoSol/PORDOSOL6.png'
+import Pordosol1 from '@/assets/PorDoSol/PORDOSOL1.webp'
+import Pordosol2 from '@/assets/PorDoSol/PORDOSOL2.webp'
+import Pordosol3 from '@/assets/PorDoSol/PORDOSOL3.webp'
+import Pordosol4 from '@/assets/PorDoSol/PORDOSOL4.webp'
+import Pordosol5 from '@/assets/PorDoSol/PORDOSOL5.webp'
+import Pordosol6 from '@/assets/PorDoSol/PORDOSOL6.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -80,9 +80,9 @@ export function PorDoSol() {
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                    <p className="text-slate-600">- Prepare-se para uma aventura emocionante e inesquecível em Baía Formosa! Nosso passeio de quadriciclo começa com uma subida incrível pelas dunas até o topo do Morro do Careca, onde você será recebido pelo espetáculo de um pôr do sol deslumbrante. Durante uma hora, você será envolvido pela beleza natural da cidade, admirando a  vista panorâmica de tirar o fôlego! </p>
+                    <p className="text-slate-600">- Prepare-se para uma aventura emocionante e inesquecível na Baía Formosa! Nosso passeio de quadriciclo começa com uma subida incrível pelas dunas até o topo do Morro do Careca, onde você será recebido pelo espetáculo de um pôr do sol deslumbrante. Durante uma hora, você estará envolvido pela beleza natural da cidade, admirando a vista panorâmica de tirar o fôlego.</p>
                     <p className="text-slate-600 mt-2">- Viva esse momento de conexão com o meio ambiente e consigo mesmo.</p>
-                    <p className="text-slate-600 mt-2">- E para tornar ainda mais especial, oferecemos a opção de um balde de champanhe ou vinho, para brindar ao fim de mais um dia memorável. Não perca a chance de viver essa experiência top de vida e se encantar com a magia do Morro do Careca ao entardecer.</p>
+                    <p className="text-slate-600 mt-2">- Para tornar a experiência ainda mais especial, oferecemos a opção de um balde de champanhe ou vinho, para brindar ao fim de mais um dia conveniente. Não perca a chance de viver essa experiência única e se encantar com a magia do Morro do Careca ao entardecer.</p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
@@ -91,7 +91,7 @@ export function PorDoSol() {
                     <p className="text-slate-600">- Toalhas</p>
                     <p className="text-slate-600">- Protetor Solar</p>
                     <p className="text-slate-600">- Óculos de sol</p>
-                    <p className="text-slate-600">- Chapéu ou bone</p>
+                    <p className="text-slate-600">- Chapéu ou boné</p>
                     <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
                 </div>
             </div>

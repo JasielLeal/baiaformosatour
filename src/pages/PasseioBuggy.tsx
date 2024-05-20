@@ -1,11 +1,11 @@
 import { FaCheck, FaStar } from "react-icons/fa";
 
-import PasseioBuggy1 from '@/assets/PasseioBuggy/PASSEIOBUG1.png'
-import PasseioBuggy2 from '@/assets/PasseioBuggy/PASSEIOBUG2.png'
-import PasseioBuggy3 from '@/assets/PasseioBuggy/PASSEIOBUG3.png'
-import PasseioBuggy4 from '@/assets/PasseioBuggy/PASSEIOBUG4.png'
-import PasseioBuggy5 from '@/assets/PasseioBuggy/PASSEIOBUG5.png'
-import PasseioBuggy6 from '@/assets/PasseioBuggy/PASSEIOBUG6.png'
+import PasseioBuggy1 from '@/assets/PasseioBuggy/PASSEIOBUG1.webp'
+import PasseioBuggy2 from '@/assets/PasseioBuggy/PASSEIOBUG2.webp'
+import PasseioBuggy3 from '@/assets/PasseioBuggy/PASSEIOBUG3.webp'
+import PasseioBuggy4 from '@/assets/PasseioBuggy/PASSEIOBUG4.webp'
+import PasseioBuggy5 from '@/assets/PasseioBuggy/PASSEIOBUG5.webp'
+import PasseioBuggy6 from '@/assets/PasseioBuggy/PASSEIOBUG6.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -83,16 +83,20 @@ export function PasseioDeBuggy() {
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                    <p className="text-slate-600">- Daremos início da nossa base, onde iremos passar todas as instruções e dicas necessárias.</p>
-                    <p className="text-slate-600 mt-2">- Em seguida vamos em direção à praia do Bacupari, passamos pelo Farol e chegamos na nossa primeira parada que é o Santuário das tartarugas 🐢 </p>
-                    <p className="text-slate-600 mt-2">- Seguimos por várias praias desertas até chegarmos na nossa próxima parada, que é o Mirante do Cotia, lá encontramos uma paisagem de tirar o fôlego, para as praias desertas  e os coqueiros de fundo!  📸🤩
+                    <p className="text-slate-600">- Iniciaremos em nossa base, onde passaremos todas as instruções e dicas.
                     </p>
-                    <p className="text-slate-600 mt-2">- Pegamos a trilha da Mata Estrela 2,4 km (Maior Reserva de Mata Atlântica sobre dunas do Brasil), o ar do Local é muito Puro e a natureza desse local maravilhosa!.</p>
-                    <p className="text-slate-600 mt-2">- Chegamos até a formosíssima Lagoa da Coco-Cola, onde fazemos um parada para banho e Fotos, a coloração da lagoa chama muito atenção, em tom avermelhado
+                    <p className="text-slate-600 mt-2">- Em seguida, vamos em direção à praia do Bacupari, passando pelo Farol até chegarmos à nossa primeira parada, que é o Santuário das Tartarugas 🐢.
                     </p>
-                    <p className="text-slate-600 mt-2">- Na próxima parada vamos em direção a Sagi onde fazemos a parada opcional de almoço, com também opções de pastéis de camarão e arraia, e aquela cachaça envelhecida em Barril de variados sabores.</p>
-                    <p className="text-slate-600 mt-2">- Finalizamos o nosso passeio na Divisa RN/PB (Rio Guaju) com o encontro do Rio com o mar e um parque eólico no alto que abrilhanta mais ainda a belíssima paisagem, com parada para banho!</p>
-                    <p className="text-slate-600 mt-2">- Lá tbm temos opções do famosíssimo espetinho de lagosta, polvo e peixe! Também temos opções de stand up e o Passeio ecológico de manguezal na canoa!</p>
+                    <p className="text-slate-600 mt-2">- Seguiremos por várias praias desertas até alcançarmos nossa próxima parada, o Mirante do Cotia, onde encontramos uma paisagem de tirar o fôlego, com vista para as praias desertas e os coqueiros ao fundo! 📸🤩
+                    </p>
+                    <p className="text-slate-600 mt-2">- Em seguida, pegaremos a trilha da Mata Estrela, com 2,4 km pela maior reserva de Mata Atlântica sobre as dunas do Brasil. O ar do local é muito puro e a natureza é deslumbrante!
+                    </p>
+                    <p className="text-slate-600 mt-2">- Chegaremos à formosa Lagoa da Coca-Cola, onde faremos uma parada para banho e fotos. A coloração avermelhada da lagoa é um espetáculo à parte.
+                    </p>
+                    <p className="text-slate-600 mt-2">- Nossa próxima parada será em Sagi, onde faremos uma parada opcional para o almoço, com opções de pastéis de camarão e arraia, além da famosa cachaça envelhecida em barril, disponível em sabores variados.
+                    </p>
+                    <p className="text-slate-600 mt-2">- Finalizamos nosso passeio na divisa RN/PB (Rio Guaju), onde ocorre o encontro do rio com o mar e há um parque eólico no alto, que brilha ainda mais com uma paisagem belíssima. Faremos uma parada para banho!</p>
+                    <p className="text-slate-600 mt-2">- Lá, também temos opções do famoso espeto de lagosta, polvo e peixe. Além disso, há opções de stand up paddle e o passeio ecológico de manguezal em canoa.</p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>

@@ -1,16 +1,16 @@
-import Passeiocompleto1 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO1.png'
-import Passeiocompleto2 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO2.png'
-import Passeiocompleto3 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO3.png'
-import Passeiocompleto4 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO4.png'
-import Passeiocompleto5 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO5.png'
-import Passeiocompleto6 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO6.png'
-import Passeiocompleto7 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO7.png'
-import Passeiocompleto8 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO8.png'
-import Passeiocompleto9 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO9.png'
-import Passeiocompleto10 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO10.png'
-import Passeiocompleto11 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO11.png'
-import Passeiocompleto12 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO12.png'
-import Passeiocompleto13 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO13.png'
+import Passeiocompleto1 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO1.webp'
+import Passeiocompleto2 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO2.webp'
+import Passeiocompleto3 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO3.webp'
+import Passeiocompleto4 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO4.webp'
+import Passeiocompleto5 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO5.webp'
+import Passeiocompleto6 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO6.webp'
+import Passeiocompleto7 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO7.webp'
+import Passeiocompleto8 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO8.webp'
+import Passeiocompleto9 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO9.webp'
+import Passeiocompleto10 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO10.webp'
+import Passeiocompleto11 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO11.webp'
+import Passeiocompleto12 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO12.webp'
+import Passeiocompleto13 from '@/assets/PasseioCompleto/PASSEIOCOMPLETO13.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -108,14 +108,21 @@ export function PasseioCompleto() {
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                    <p className="text-slate-600">- Daremos início da nossa base, onde iremos passar todas as instruções e dicas necessárias.</p>
-                    <p className="text-slate-600 mt-2">- Em seguida vamos em direção à praia do Bacupari, passamos pelo Farol e chegamos na nossa primeira parada que é o Santuário das tartarugas 🐢 </p>
-                    <p className="text-slate-600 mt-2">- Seguimos por várias praias desertas até chegarmos na nossa próxima parada, que é o Mirante do Cotia, lá encontramos uma paisagem de tirar o fôlego, para as praias desertas  e os coqueiros de fundo!  📸🤩
+                    <p className="text-slate-600">- Iniciaremos em nossa base, onde passaremos todas as instruções e dicas.
                     </p>
-                    <p className="text-slate-600 mt-2">- Vamos em direção a Sagi onde fazemos a parada opcional de almoço, com também opções de pastéis de camarão e arraia, e aquela cachaça envelhecida em Barril de variados sabores.</p>
-                    <p className="text-slate-600 mt-2">- Finalizamos o nosso passeio na Divisa RN/PB (Rio Guaju) com o encontro do Rio com o mar e um parque eólico no alto que abrilhanta mais ainda a belíssima paisagem, com parada para banho!
+                    <p className="text-slate-600 mt-2">- Em seguida, vamos em direção à praia do Bacupari, passando pelo Farol até chegarmos à nossa primeira parada, que é o Santuário das Tartarugas 🐢.</p>
+                    <p className="text-slate-600 mt-2">- Seguiremos por várias praias desertas até alcançarmos nossa próxima parada, o Mirante do Cotia, onde encontramos uma paisagem de tirar o fôlego, com vista para as praias desertas e os coqueiros ao fundo! 📸🤩
                     </p>
-                    <p className="text-slate-600 mt-2">- Lá tbm temos opções do famosíssimo espetinho de lagosta, polvo e peixe! Também temos opções de stand up e o Passeio ecológico de manguezal na canoa!</p>
+                    <p className="text-slate-600 mt-2">-Continuaremos em direção a Sagi, onde faremos uma parada opcional para o almoço, com opções de pastéis de camarão e arraia, além da famosa cachaça envelhecida em barril, disponível em sabores variados.</p>
+
+                    <p className="text-slate-600 mt-2">- Finalizamos nosso passeio na divisa RN/PB (Rio Guaju), onde ocorre o encontro do rio com o mar e há um parque eólico no alto, que abrilhanta ainda mais a belíssima paisagem, com uma parada para banho.
+                    </p>
+
+                    <p className="text-slate-600 mt-2">- Lá, também temos opções do famoso espeto de lagosta, polvo e peixe. Além disso, há opções de stand up paddle e o passeio ecológico de manguezal em canoa.
+                    </p>
+
+                    <p className="text-slate-600 mt-2">- No retorno do passeio, fazemos uma parada no Morro do Careca, onde subimos pelas dunas para apreciar uma vista magnífica do alto, contemplando o mar e a paisagem da Baía Formosa
+                    </p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
@@ -124,7 +131,7 @@ export function PasseioCompleto() {
                     <p className="text-slate-600">- Toalhas</p>
                     <p className="text-slate-600">- Protetor Solar</p>
                     <p className="text-slate-600">- Óculos de sol</p>
-                    <p className="text-slate-600">- Chapéu ou bone</p>
+                    <p className="text-slate-600">- Chapéu ou boné</p>
                     <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
                 </div>
             </div>

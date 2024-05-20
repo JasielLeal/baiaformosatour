@@ -5,11 +5,11 @@ import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import passeio1 from '@/assets/tituloCompleto.png'
-import passeio2 from '@/assets/tituloPorDoSol.png'
-import passeio3 from '@/assets/tituloBuggy.png'
-import passeio4 from '@/assets/PasseioManguezal/MANGUEZAL2.png'
-import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA1.png'
+import passeio1 from '@/assets/tituloCompleto.webp'
+import passeio2 from '@/assets/tituloPorDoSol.webp'
+import passeio3 from '@/assets/tituloBuggy.webp'
+import passeio4 from '@/assets/PasseioManguezal/MANGUEZAL2.webp'
+import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA1.webp'
 
 export function PacotesTotal() {
 

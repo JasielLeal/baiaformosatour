@@ -8,13 +8,13 @@ import lys from '@/assets/lys2.webp'
 import sara from '../assets/sara.webp'
 import leticia from '@/assets/leticia.webp'
 import allan from '@/assets/allan.webp'
-import rodrigo from '@/assets/unnamed.png'
-import ronaldo from '@/assets/Ronaldo.png'
-import Shaquiria from '@/assets/Shaquiria.png'
-import janine from '@/assets/Janine.png'
-import Meyre from "@/assets/Meyre.png"
-import wilton from "@/assets/Wilton.png"
-import MariaFigueirosa from "@/assets/MariaFigueirosa.png"
+import rodrigo from '@/assets/unnamed.webp'
+import ronaldo from '@/assets/Ronaldo.webp'
+import Shaquiria from '@/assets/Shaquiria.webp'
+import janine from '@/assets/Janine.webp'
+import Meyre from "@/assets/Meyre.webp"
+import wilton from "@/assets/Wilton.webp"
+import MariaFigueirosa from "@/assets/MariaFigueirosa.webp"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

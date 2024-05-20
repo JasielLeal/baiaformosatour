@@ -5,9 +5,9 @@ import { FaCheck } from "react-icons/fa";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import passeio1 from '@/assets/tituloCompleto.png'
-import passeio2 from '@/assets/tituloPorDoSol.png'
-import passeio3 from '@/assets/tituloBuggy.png'
+import passeio1 from '@/assets/tituloCompleto.webp'
+import passeio2 from '@/assets/tituloPorDoSol.webp'
+import passeio3 from '@/assets/tituloBuggy.webp'
 export function Pacotes() {
 
     useEffect(() => {

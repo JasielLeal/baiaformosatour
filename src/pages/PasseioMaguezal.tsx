@@ -1,8 +1,8 @@
 import { FaCheck, FaStar } from "react-icons/fa";
 
-import Manguezal1 from '@/assets/PasseioManguezal/MANGUEZAL1.png'
-import Manguezal2 from '@/assets/PasseioManguezal/MANGUEZAL2.png'
-import Manguezal4 from '@/assets/PasseioManguezal/MANGUEZAL4.png'
+import Manguezal1 from '@/assets/PasseioManguezal/MANGUEZAL1.webp'
+import Manguezal2 from '@/assets/PasseioManguezal/MANGUEZAL2.webp'
+import Manguezal4 from '@/assets/PasseioManguezal/MANGUEZAL4.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -70,9 +70,9 @@ export function PasseioMaguezal() {
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                    <p className="text-slate-600">- Descubra a tranquilidade de Sagi em um passeio de canoa que oferece uma conexão maravilhosa com a natureza intocada. Navegue pelas águas calmas do Rio Guajú, deixando-se envolver pela paz que envolve a região.</p>
-                    <p className="text-slate-600 mt-2">- Experimente a sensação revitalizante de mergulhar nas águas cristalinas do belíssimo Rio Guaju, enriquecidas com banho de argila rejuvenescedora. Deixe que a argila purifique sua pele, renovando-a e revitalizando-a enquanto você se entrega ao bem-estar que só a natureza pode proporcionar.</p>
-                    <p className="text-slate-600 mt-2">- Desperte seus sentidos, revigore sua mente e renove sua alma neste refúgio de serenidade. Reserve seu passeio de canoa em Sagi hoje mesmo e permita-se mergulhar em um oásis de tranquilidade e beleza natural. Sua jornada de paz e renovação espera por você.</p>
+                    <p className="text-slate-600">- Descubra a tranquilidade de Sagi em um passeio de canoa que proporciona uma conexão profunda com a natureza intocada. Navegue pelas águas calmas do Rio Guajú, deixando-se envolver pela serenidade que permeia a região.</p>
+                    <p className="text-slate-600 mt-2">- Experimente a sensação revitalizante de mergulhar nas águas cristalinas do belíssimo Rio Guajú, complementada com um banho de argila rejuvenescedora. Permita que a argila purifique sua pele, renovando-a e revitalizando-a enquanto você entrega ao bem-estar proporcionado pela natureza.</p>
+                    <p className="text-slate-600 mt-2">- Desperte seus sentidos, revigore sua mente e renove sua alma neste refúgio de serenidade. Reserve hoje mesmo seu passeio de canoa em Sagi e permita-se mergulhar em um oásis de tranquilidade e beleza natural. Sua jornada de paz e renovação espera por você.</p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
@@ -81,7 +81,7 @@ export function PasseioMaguezal() {
                     <p className="text-slate-600">- Toalhas</p>
                     <p className="text-slate-600">- Protetor Solar</p>
                     <p className="text-slate-600">- Óculos de sol</p>
-                    <p className="text-slate-600">- Chapéu ou bone</p>
+                    <p className="text-slate-600">- Chapéu ou bweb</p>
                     <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
                 </div>
             </div>

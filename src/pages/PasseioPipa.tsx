@@ -1,14 +1,14 @@
 import { FaCheck, FaStar } from "react-icons/fa";
 
 
-import PasseioPipa1 from '@/assets/PasseioPipa/PASSEIOPIPA1.png'
-import PasseioPipa2 from '@/assets/PasseioPipa/PASSEIOPIPA2.png'
-import PasseioPipa3 from '@/assets/PasseioPipa/PASSEIOPIPA3.png'
-import PasseioPipa4 from '@/assets/PasseioPipa/PASSEIOPIPA4.png'
-import PasseioPipa5 from '@/assets/PasseioPipa/PASSEIOPIPA5.png'
-import PasseioPipa6 from '@/assets/PasseioPipa/PASSEIOPIPA6.png'
-import PasseioPipa7 from '@/assets/PasseioPipa/PASSEIOPIPA7.png'
-import PasseioPipa8 from '@/assets/PasseioPipa/PASSEIOPIPA8.png'
+import PasseioPipa1 from '@/assets/PasseioPipa/PASSEIOPIPA1.webp'
+import PasseioPipa2 from '@/assets/PasseioPipa/PASSEIOPIPA2.webp'
+import PasseioPipa3 from '@/assets/PasseioPipa/PASSEIOPIPA3.webp'
+import PasseioPipa4 from '@/assets/PasseioPipa/PASSEIOPIPA4.webp'
+import PasseioPipa5 from '@/assets/PasseioPipa/PASSEIOPIPA5.webp'
+import PasseioPipa6 from '@/assets/PasseioPipa/PASSEIOPIPA6.webp'
+import PasseioPipa7 from '@/assets/PasseioPipa/PASSEIOPIPA7.webp'
+import PasseioPipa8 from '@/assets/PasseioPipa/PASSEIOPIPA8.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -92,12 +92,15 @@ export function PasseioPipa() {
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
-                    <p className="text-slate-600">- Daremos início da nossa base, onde iremos passar todas as instruções e dicas necessárias.</p>
-                    <p className="text-slate-600 mt-2">- Em seguida vamos em direção ao mirante do golfinhos, lá é a nossa primeira parada para fotos!</p>
-                    <p className="text-slate-600 mt-2">- Seguimos pela praia até chegarmos na travessia de balsa para Barra do Cunhaú onde fazemos mais uma parada na Jacuzzi natural de Barra do cunhaú.</p>
-                    <p className="text-slate-600 mt-2">- Vamos em direção a Sibaúma, passando pelos canaviais até chegarmos na ponte de madeira da Fazendinha.</p>
-                    <p className="text-slate-600 mt-2">- A próxima parada será na belíssima paisagem do mirante do Morro vermelho!</p>
-                    <p className="text-slate-600 mt-2">- Seguimos em direção a Pipa passando por várias falésias lindas, até chegamos no chapadão de Pipa, que tem uma vista de tirar o fôlego para a praia do amor!</p>
+                    <p className="text-slate-600">- Daremos início em nossa base, onde forneceremos todas as instruções e dicas.
+                    </p>
+                    <p className="text-slate-600 mt-2">- Em seguida, vamos em direção ao Mirante dos Golfinhos, que será nossa primeira parada para tirar fotos!</p>
+                    <p className="text-slate-600 mt-2">- Seguiremos pela praia até chegarmos à travessia de balsa para Barra do Cunhaú, onde faremos mais uma parada na Jacuzzi natural de Barra do Cunhaú.</p>
+                    <p className="text-slate-600 mt-2">- Continuaremos em direção a Sibaúma, passando pelos canaviais até alcançarmos a ponte de madeira da Fazendinha.</p>
+                    <p className="text-slate-600 mt-2">- A próxima parada será na belíssima paisagem do Mirante do Morro Vermelho!</p>
+                    <p className="text-slate-600 mt-2">Em seguida, ofereceremos a opção de almoço em um local aconchegante e com opções variadas para você recarregar as energias.
+                    </p>
+                    <p className="text-slate-600 mt-2">-Prosseguiremos em direção a Pipa, atravessando várias falésias magníficas, até chegarmos ao Chapadão de Pipa, que oferece uma vista de tirar o fôlego da Praia do Amor!</p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>
@@ -106,7 +109,7 @@ export function PasseioPipa() {
                     <p className="text-slate-600">- Toalhas</p>
                     <p className="text-slate-600">- Protetor Solar</p>
                     <p className="text-slate-600">- Óculos de sol</p>
-                    <p className="text-slate-600">- Chapéu ou bone</p>
+                    <p className="text-slate-600">- Chapéu ou boné</p>
                     <p className="text-slate-600">- Dinheiro em espécie (pois não é todos os lugares que aceita pix)</p>
                 </div>
             </div>
