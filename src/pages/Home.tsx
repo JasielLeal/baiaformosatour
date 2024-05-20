@@ -21,7 +21,7 @@ export function Home() {
                 <img src={iphone} alt="bannerv4" className="h-[70]  table:hidden cover" />
                 <img src={iphone3} alt="bannerv4" className="h-[70]  hidden table:block md:hidden w-full cover" />
             </div>
-            <Loca />
+          
 
         </>
     )
