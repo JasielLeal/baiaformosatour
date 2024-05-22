@@ -1,7 +1,5 @@
 import { FeedBack } from "@/components/FeedBack";
 import { Pacotes } from "@/components/Pacotes";
-
-
 import bannerv4 from '/bannerv4.webp'
 import iphone from '/iphone5.webp'
 import iphone3 from '/iphone5.webp'
