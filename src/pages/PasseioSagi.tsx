@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-export function PasseioDeBuggy() {
+export function PasseioSagi() {
     return (
         <div className='lg:flex lg:justify-center'>
             <div className='lg:max-w-[1100px]'>
@@ -45,8 +45,8 @@ export function PasseioDeBuggy() {
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
-                                    <h1 className="text-3xl font-bold text-slate-800">Passeio De Buggy</h1>
-                                    <p className="text-2xl font-bold text-slate-800">R$ 449,99</p>
+                                    <h1 className="text-3xl font-bold text-slate-800">Passeio até Sagi</h1>
+                                    <p className="text-2xl font-bold text-slate-800">R$ 269,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
                                         <FaStar />
@@ -56,13 +56,13 @@ export function PasseioDeBuggy() {
                                     </div>
                                 </div>
                                 <div className="mt-10">
-                                    <h1><span className="font-bold">Duração:</span> 03:00h</h1>
+                                    <h1><span className="font-bold">Duração:</span> 02:30h</h1>
                                     <h1><span className="font-bold mb-2">O que está incluso?</span></h1>
                                     <div className="flex flex-col gap-2">
-                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Valor do buggy ( 4 pessoas)</p>
-                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Bugueiro a sua disposição</p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> </p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Guia a Disposição</p>
                                         <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> Fotos / Vídeos Gratuitos</p>
-                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 37 km de Praias Desertas</p>
+                                        <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span> 30 km de Praias Desertas</p>
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[290px]">

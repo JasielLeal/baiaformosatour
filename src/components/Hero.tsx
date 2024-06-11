@@ -1,3 +1,5 @@
+
+
 import { Link } from "react-router-dom";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -25,7 +27,7 @@ export function Hero() {
                                 <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Realizar Reserva</Link>
                             </Button>
                             <Button variant='secondary' className=" " asChild data-aos="fade-left" data-aos-duration="1000">
-                                <Link to='#pacotes'>Nossos Pacotes</Link>
+                                <Link to='/pacotes'>Nossos Pacotes</Link>
                             </Button>
                         </div>
                     </div>

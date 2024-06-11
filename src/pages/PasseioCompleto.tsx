@@ -71,7 +71,7 @@ export function PasseioCompleto() {
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
                                     <h1 className="text-3xl font-bold text-slate-800">Passeio Completo</h1>
-                                    <p className="text-2xl font-bold text-slate-800">R$ 349,99</p>
+                                    <p className="text-2xl font-bold text-slate-800">R$ 369,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
                                         <FaStar />

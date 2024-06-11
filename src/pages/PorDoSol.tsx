@@ -44,7 +44,7 @@ export function PorDoSol() {
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
                                     <h1 className="text-3xl font-bold text-slate-800">Por do Sol</h1>
-                                    <p className="text-2xl font-bold text-slate-800">R$ 149,99</p>
+                                    <p className="text-2xl font-bold text-slate-800">R$ 219,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
                                         <FaStar />

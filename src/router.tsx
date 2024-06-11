@@ -11,6 +11,7 @@ import { PacotesTotal } from "./pages/Pacotes";
 import { PasseioMaguezal } from "./pages/PasseioMaguezal";
 import { Termos } from "./pages/Termos";
 import { PasseioPipa } from "./pages/PasseioPipa";
+import { PasseioSagi } from "./pages/PasseioSagi";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ export const router = createBrowserRouter([
       { path: '/passeiodemaguezal', element: <PasseioMaguezal /> },
       { path: '/passeiodebuggy', element: <PasseioDeBuggy /> },
       { path: '/passeiopipa', element: <PasseioPipa /> },
+      { path: '/passeiosagi', element: <PasseioSagi /> },
       { path: '/pordosol', element: <PorDoSol /> },
       { path: '/pacotes', element: <PacotesTotal /> },
       { path: '/duvidas', element: <Duvidas /> },

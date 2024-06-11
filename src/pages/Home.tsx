@@ -8,8 +8,6 @@ import { Carrosel } from "@/components/carrossel";
 export function Home() {
     return (
         <>
-
-
             <Carrosel />
             <Pacotes />
             <FeedBack />
