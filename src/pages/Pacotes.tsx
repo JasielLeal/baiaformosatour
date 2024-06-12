@@ -10,6 +10,7 @@ import passeio2 from '@/assets/tituloPorDoSol.webp'
 import passeio3 from '@/assets/tituloBuggy.webp'
 import passeio4 from '@/assets/PasseioManguezal/MANGUEZAL2.webp'
 import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA1.webp'
+import passeio6 from '@/assets/PasseioSagi/PASSEIOSAGI1.webp'
 
 export function PacotesTotal() {
 
@@ -121,13 +122,13 @@ export function PacotesTotal() {
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
                                 <h1 className="font-bold text-slate-800 text-2xl">Passeio Turistico até Sagi</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
-                                <img src={passeio5} alt="passeio 1" className="object-cover rounded-md" />
+                                <img src={passeio6} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 269,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
-                                    <Link to='/passeiopipa'>Detalhes</Link>
+                                    <Link to='/passeiosagi'>Detalhes</Link>
                                 </Button>
                                 <div className="mt-10 flex flex-col gap-2">
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>

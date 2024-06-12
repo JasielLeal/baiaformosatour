@@ -1,11 +1,12 @@
 import { FaCheck, FaStar } from "react-icons/fa";
 
-import PasseioBuggy1 from '@/assets/PasseioBuggy/PASSEIOBUG1.webp'
-import PasseioBuggy2 from '@/assets/PasseioBuggy/PASSEIOBUG2.webp'
-import PasseioBuggy3 from '@/assets/PasseioBuggy/PASSEIOBUG3.webp'
-import PasseioBuggy4 from '@/assets/PasseioBuggy/PASSEIOBUG4.webp'
-import PasseioBuggy5 from '@/assets/PasseioBuggy/PASSEIOBUG5.webp'
-import PasseioBuggy6 from '@/assets/PasseioBuggy/PASSEIOBUG6.webp'
+import PasseioSagi1 from '@/assets/PasseioSagi/PASSEIOSAGI1.webp'
+import PasseioSagi2 from '@/assets/PasseioSagi/PASSEIOSAGI2.webp'
+import PasseioSagi3 from '@/assets/PasseioSagi/PASSEIOSAGI3.webp'
+import PasseioSagi4 from '@/assets/PasseioSagi/PASSEIOSAGI4.webp'
+import PasseioSagi5 from '@/assets/PasseioSagi/PASSEIOSAGI5.webp'
+import PasseioSagi6 from '@/assets/PasseioSagi/PASSEIOSAGI6.webp'
+import PasseioSagi7 from '@/assets/PasseioSagi/PASSEIOSAGI7.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -21,22 +22,25 @@ export function PasseioSagi() {
                     <div className='lg:grid lg:grid-cols-2 lg:max-w-[1100px] gap-20'>
                         <Swiper slidesPerView={1} pagination={{ clickable: true }} modules={[Pagination]} className='w-full h-[500px] md:w-[500px] md:h-[600px]'>
                             <SwiperSlide>
-                                <img src={PasseioBuggy1} className='w-full h-full' />
+                                <img src={PasseioSagi1} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={PasseioBuggy2} className='w-full h-full' />
+                                <img src={PasseioSagi2} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={PasseioBuggy3} className='w-full h-full' />
+                                <img src={PasseioSagi3} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={PasseioBuggy4} className='w-full h-full' />
+                                <img src={PasseioSagi4} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={PasseioBuggy5} className='w-full h-full' />
+                                <img src={PasseioSagi5} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={PasseioBuggy6} className='w-full h-full' />
+                                <img src={PasseioSagi6} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={PasseioSagi7} className='w-full h-full' />
                             </SwiperSlide>
 
 
