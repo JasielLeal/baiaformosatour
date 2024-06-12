@@ -34,7 +34,7 @@ export function PacotesTotal() {
                                 <h1 className="font-bold text-white text-2xl">Passeio Completo</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio1} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-white my-5">R$ 349,99</h1>
+                                <h1 className="text-3xl font-bold text-white my-5">R$ 369,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
@@ -70,7 +70,7 @@ export function PacotesTotal() {
                                 <h1 className="font-bold text-slate-800 text-2xl">Passeio de Buggy</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio3} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 419,99</h1>
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 449,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
