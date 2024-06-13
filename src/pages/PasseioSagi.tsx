@@ -49,7 +49,7 @@ export function PasseioSagi() {
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
-                                    <h1 className="text-3xl font-bold text-slate-800">Passeio até Sagi</h1>
+                                    <h1 className="text-3xl font-bold text-slate-800">Passeio Rota Sagi</h1>
                                     <p className="text-2xl font-bold text-slate-800">R$ 269,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
@@ -86,21 +86,16 @@ export function PasseioSagi() {
                     </div>
                 </div>
                 <div className="px-5 py-10">
-                    <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</h1>
+                    <p className="font-semibold text-2xl  mb-10 text-slate-800">Sobre a Atividade</p>
                     <p className="text-slate-600">- Iniciaremos em nossa base, onde passaremos todas as instruções e dicas.
                     </p>
-                    <p className="text-slate-600 mt-2">- Em seguida, vamos em direção à praia do Bacupari, passando pelo Farol até chegarmos à nossa primeira parada, que é o Santuário das Tartarugas 🐢.
-                    </p>
+                    <p className="text-slate-600 mt-2">- Em seguida, vamos em direção à praia do Bacupari, passando pelo Farol até chegarmos à nossa primeira parada, que é o Santuário das Tartarugas 🐢.</p>
                     <p className="text-slate-600 mt-2">- Seguiremos por várias praias desertas até alcançarmos nossa próxima parada, o Mirante do Cotia, onde encontramos uma paisagem de tirar o fôlego, com vista para as praias desertas e os coqueiros ao fundo! 📸🤩
                     </p>
-                    <p className="text-slate-600 mt-2">- Em seguida, pegaremos a trilha da Mata Estrela, com 2,4 km pela maior reserva de Mata Atlântica sobre as dunas do Brasil. O ar do local é muito puro e a natureza é deslumbrante!
+                    <p className="text-slate-600 mt-2">- Continuaremos até Sagi, onde faremos uma parada para desfrutar das águas do belíssimo Rio Sagi, com opção para almoço e passeio de canoa pelo manguezal.</p>
+
+                    <p className="text-slate-600 mt-2">- No retorno do passeio, fazemos uma parada no Morro do Careca, onde subimos pelas dunas para apreciar uma vista magnífica do alto, contemplando o mar e a paisagem da Baía Formosa
                     </p>
-                    <p className="text-slate-600 mt-2">- Chegaremos à formosa Lagoa da Coca-Cola, onde faremos uma parada para banho e fotos. A coloração avermelhada da lagoa é um espetáculo à parte.
-                    </p>
-                    <p className="text-slate-600 mt-2">- Nossa próxima parada será em Sagi, onde faremos uma parada opcional para o almoço, com opções de pastéis de camarão e arraia, além da famosa cachaça envelhecida em barril, disponível em sabores variados.
-                    </p>
-                    <p className="text-slate-600 mt-2">- Finalizamos nosso passeio na divisa RN/PB (Rio Guaju), onde ocorre o encontro do rio com o mar e há um parque eólico no alto, que brilha ainda mais com uma paisagem belíssima. Faremos uma parada para banho!</p>
-                    <p className="text-slate-600 mt-2">- Lá, também temos opções do famoso espeto de lagosta, polvo e peixe. Além disso, há opções de stand up paddle e o passeio ecológico de manguezal em canoa.</p>
                 </div>
                 <div className="px-5 py-10">
                     <h1 className="font-semibold text-2xl  mb-10 text-slate-800">Recomendações</h1>

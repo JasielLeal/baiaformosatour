@@ -7,7 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import passeio1 from '@/assets/tituloCompleto.webp'
 import passeio2 from '@/assets/tituloPorDoSol.webp'
-import passeio3 from '@/assets/tituloBuggy.webp'
+import passeio3 from '@/assets/PasseioBuggy/PASSEIOBUG2.webp'
 export function Pacotes() {
 
     useEffect(() => {
@@ -30,7 +30,7 @@ export function Pacotes() {
                                 <h1 className="font-bold text-white text-2xl">Passeio Completo</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio1} alt="passeio 1" className="object-cover rounded-md" width={388} height={517}/>
-                                <h1 className="text-3xl font-bold text-white my-5">R$ 349,99</h1>
+                                <h1 className="text-3xl font-bold text-white my-5">R$ 369,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
@@ -46,10 +46,10 @@ export function Pacotes() {
                             </div>
 
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl">Por do Sol</h1>
+                                <h1 className="font-bold text-slate-800 text-2xl">Rota Por do Sol</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio2} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 149,99</h1>
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 219,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
@@ -67,7 +67,7 @@ export function Pacotes() {
                                 <h1 className="font-bold text-slate-800 text-2xl">Passeio de Buggy</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio3} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 419,99</h1>
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 449,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>

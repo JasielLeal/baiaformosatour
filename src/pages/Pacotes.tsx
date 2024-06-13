@@ -7,7 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import passeio1 from '@/assets/tituloCompleto.webp'
 import passeio2 from '@/assets/tituloPorDoSol.webp'
-import passeio3 from '@/assets/tituloBuggy.webp'
+import passeio3 from '@/assets/PasseioBuggy/PASSEIOBUG2.webp'
 import passeio4 from '@/assets/PasseioManguezal/MANGUEZAL2.webp'
 import passeio5 from '@/assets/PasseioPipa/PASSEIOPIPA1.webp'
 import passeio6 from '@/assets/PasseioSagi/PASSEIOSAGI1.webp'
@@ -49,21 +49,21 @@ export function PacotesTotal() {
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl">Por do Sol</h1>
+                                <h1 className="font-bold text-slate-800 text-2xl">Passeio Rota Sagi</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
-                                <img src={passeio2} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 219,99</h1>
+                                <img src={passeio6} alt="passeio 1" className="object-cover rounded-md" />
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 269,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
-                                    <Link to='/pordosol'>Detalhes</Link>
+                                    <Link to='/passeiosagi'>Detalhes</Link>
                                 </Button>
                                 <div className="mt-10 flex flex-col gap-2">
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
-
+                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>30 km de Praias e Falésias</p>
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
@@ -85,23 +85,7 @@ export function PacotesTotal() {
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl">Passeio Ecológico de Maguezal</h1>
-                                <Badge className="mb-5">Mais popular</Badge>
-                                <img src={passeio4} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 29,99</h1>
-                                <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
-                                </Button>
-                                <Button asChild className="w-full mt-5" variant={'secondary'}>
-                                    <Link to='/passeiodemaguezal'>Detalhes</Link>
-                                </Button>
-                                <div className="mt-10 flex flex-col gap-2">
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por pessoa</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
-                                </div>
-                            </div>
-                            <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl">Passeio Turistico Da Pipa</h1>
+                                <h1 className="font-bold text-slate-800 text-2xl">Passeio Rota Pipa</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
                                 <img src={passeio5} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 599,99</h1>
@@ -120,23 +104,41 @@ export function PacotesTotal() {
                                 </div>
                             </div>
                             <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
-                                <h1 className="font-bold text-slate-800 text-2xl">Passeio Turistico até Sagi</h1>
+                                <h1 className="font-bold text-slate-800 text-2xl">Rota Por do Sol</h1>
                                 <Badge className="mb-5">Mais popular</Badge>
-                                <img src={passeio6} alt="passeio 1" className="object-cover rounded-md" />
-                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 269,99</h1>
+                                <img src={passeio2} alt="passeio 1" className="object-cover rounded-md" />
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 219,99</h1>
                                 <Button asChild className="w-full">
                                     <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
-                                    <Link to='/passeiosagi'>Detalhes</Link>
+                                    <Link to='/pordosol'>Detalhes</Link>
                                 </Button>
                                 <div className="mt-10 flex flex-col gap-2">
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por quadriciclo ( 2 pessoas)</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
                                     <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Fotos/Vídeos</p>
-                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>30 km de Praias e Falésias</p>
+
+                                </div>
+                            </div>             
+                            <div className="border p-5 rounded-lg" data-aos="fade-down" data-aos-duration="1000">
+                                <h1 className="font-bold text-slate-800 text-2xl">Passeio de Maguezal</h1>
+                                <Badge className="mb-5">Mais popular</Badge>
+                                <img src={passeio4} alt="passeio 1" className="object-cover rounded-md" />
+                                <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 29,99</h1>
+                                <Button asChild className="w-full">
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                </Button>
+                                <Button asChild className="w-full mt-5" variant={'secondary'}>
+                                    <Link to='/passeiodemaguezal'>Detalhes</Link>
+                                </Button>
+                                <div className="mt-10 flex flex-col gap-2">
+                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Valor por pessoa</p>
+                                    <p className="flex items-center gap-2"><span className="text-primary"><FaCheck /></span>Guia a sua disposição</p>
                                 </div>
                             </div>
+                            
+                            
 
                         </div>
 
