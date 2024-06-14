@@ -1,11 +1,14 @@
 import { FaCheck, FaStar } from "react-icons/fa";
 
 import Pordosol1 from '@/assets/PorDoSol/PORDOSOL1.webp'
+import Pordosol0 from '@/assets/PorDoSol/PORDOSOL01.webp'
 import Pordosol2 from '@/assets/PorDoSol/PORDOSOL2.webp'
 import Pordosol3 from '@/assets/PorDoSol/PORDOSOL3.webp'
 import Pordosol4 from '@/assets/PorDoSol/PORDOSOL4.webp'
 import Pordosol5 from '@/assets/PorDoSol/PORDOSOL5.webp'
 import Pordosol6 from '@/assets/PorDoSol/PORDOSOL6.webp'
+import Pordosol7 from '@/assets/PorDoSol/PORDOSOL7.webp'
+import Pordosol8 from '@/assets/PorDoSol/PORDOSOL8.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -21,10 +24,16 @@ export function PorDoSol() {
                     <div className='lg:grid lg:grid-cols-2 lg:max-w-[1100px] gap-20'>
                         <Swiper slidesPerView={1} pagination={{ clickable: true }} modules={[Pagination]} className='w-full h-[500px] md:w-[500px] md:h-[600px]'>
                             <SwiperSlide>
+                                <img src={Pordosol0} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
                                 <img src={Pordosol1} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={Pordosol2} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Pordosol8} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={Pordosol3} className='w-full h-full' />
@@ -38,12 +47,16 @@ export function PorDoSol() {
                             <SwiperSlide>
                                 <img src={Pordosol6} className='w-full h-full' />
                             </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Pordosol7} className='w-full h-full' />
+                            </SwiperSlide>
+                            
                         </Swiper>
                         <div className="flex flex-col px-5">
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
-                                    <h1 className="text-3xl font-bold text-slate-800">Por do Sol</h1>
+                                    <h1 className="text-3xl font-bold text-slate-800">Rota Por Do Sol</h1>
                                     <p className="text-2xl font-bold text-slate-800">R$ 219,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />

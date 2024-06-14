@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import passeio1 from '@/assets/tituloCompleto.webp'
-import passeio2 from '@/assets/tituloPorDoSol.webp'
+import passeio2 from '@/assets/PorDoSol/PORDOSOL01.webp'
 import passeio3 from '@/assets/PasseioBuggy/PASSEIOBUG2.webp'
 export function Pacotes() {
 

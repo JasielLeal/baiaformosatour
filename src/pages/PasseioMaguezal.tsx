@@ -2,7 +2,10 @@ import { FaCheck, FaStar } from "react-icons/fa";
 
 import Manguezal1 from '@/assets/PasseioManguezal/MANGUEZAL1.webp'
 import Manguezal2 from '@/assets/PasseioManguezal/MANGUEZAL2.webp'
+import Manguezal5 from '@/assets/PasseioManguezal/MANGUEZAL5.webp'
 import Manguezal4 from '@/assets/PasseioManguezal/MANGUEZAL4.webp'
+import Manguezal7 from '@/assets/PasseioManguezal/MANGUEZAL7.webp'
+import Manguezal8 from '@/assets/PasseioManguezal/MANGUEZAL8.webp'
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -17,23 +20,34 @@ export function PasseioMaguezal() {
                 <div className='lg:flex lg:w-full lg:justify-center pt-24 lg:max-w-[1100px]'>
                     <div className='lg:grid lg:grid-cols-2 lg:max-w-[1100px] gap-20'>
                         <Swiper slidesPerView={1} pagination={{ clickable: true }} modules={[Pagination]} className='w-full h-[500px] md:w-[500px] md:h-[600px]'>
+
+                         
+                            <SwiperSlide>
+                                <img src={Manguezal8} className='w-full h-full' />
+                            </SwiperSlide>
                             <SwiperSlide>
                                 <img src={Manguezal1} className='w-full h-full' />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={Manguezal2} className='w-full h-full' />
                             </SwiperSlide>
-
                             <SwiperSlide>
                                 <img src={Manguezal4} className='w-full h-full' />
                             </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Manguezal7} className='w-full h-full' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Manguezal5} className='w-full h-full' />
+                            </SwiperSlide>
+
 
                         </Swiper>
                         <div className="flex flex-col px-5 items-center lg:items-start">
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
-                                    <h1 className="text-3xl font-bold text-slate-800">Passeio Ecológico de Maguezal</h1>
+                                    <h1 className="text-3xl font-bold text-slate-800">Passeio de Maguezal</h1>
                                     <p className="text-2xl font-bold text-slate-800">R$ 29,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />

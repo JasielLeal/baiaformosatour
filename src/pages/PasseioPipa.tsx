@@ -53,7 +53,7 @@ export function PasseioPipa() {
                             <div>
                                 <div>
                                     <Badge className="mt-5">Recomendado</Badge>
-                                    <h1 className="text-3xl font-bold text-slate-800">Passeio de Pipa</h1>
+                                    <h1 className="text-3xl font-bold text-slate-800">Passeio Rota Pipa</h1>
                                     <p className="text-2xl font-bold text-slate-800">R$ 599,99</p>
                                     <div className="flex text-primary">
                                         <FaStar />
