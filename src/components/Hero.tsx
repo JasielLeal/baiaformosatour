@@ -24,7 +24,7 @@ export function Hero() {
                         <p className="font-normal text-white lg:text-xl sm:max-w-[740px]" data-aos="fade-up" data-aos-duration="1000">Aproveite o melhor da natureza, da aventura e da liberdade em um passeio imperdível, onde as paisagens se tornam seus caminhos.</p>
                         <div className="mt-4 flex gap-2" >
                             <Button variant='default' asChild data-aos="fade-right" data-aos-duration="1000">
-                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Realizar Reserva</Link>
+                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20quadriciclo.' target="_blank">Realizar Reserva</Link>
                             </Button>
                             <Button variant='secondary' className=" " asChild data-aos="fade-left" data-aos-duration="1000">
                                 <Link to='/pacotes'>Nossos Pacotes</Link>

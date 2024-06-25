@@ -36,7 +36,7 @@ export function PacotesTotal() {
                                 <img src={passeio1} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-white my-5">R$ 369,99</h1>
                                 <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
                                     <Link to='/passeiocompleto'>Detalhes</Link>
@@ -54,7 +54,7 @@ export function PacotesTotal() {
                                 <img src={passeio6} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 269,99</h1>
                                 <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
                                     <Link to='/passeiosagi'>Detalhes</Link>
@@ -72,7 +72,7 @@ export function PacotesTotal() {
                                 <img src={passeio3} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 449,99</h1>
                                 <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20Buggy.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
                                     <Link to='/passeiodebuggy'>Detalhes</Link>
@@ -90,7 +90,7 @@ export function PacotesTotal() {
                                 <img src={passeio5} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 599,99</h1>
                                 <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994011101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20quadriciclo%20para%20Pipa.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
                                     <Link to='/passeiopipa'>Detalhes</Link>
@@ -109,7 +109,7 @@ export function PacotesTotal() {
                                 <img src={passeio2} alt="passeio 1" className="object-cover rounded-md" />
                                 <h1 className="text-3xl font-bold text-slate-800 my-5">R$ 219,99</h1>
                                 <Button asChild className="w-full">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">Reservar Agora</Link>
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20no%20passeio%20de%20quadriciclo.' target="_blank">Reservar Agora</Link>
                                 </Button>
                                 <Button asChild className="w-full mt-5" variant={'secondary'}>
                                     <Link to='/pordosol'>Detalhes</Link>
