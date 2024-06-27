@@ -76,14 +76,14 @@ export function PorDoSol() {
                                     </div>
                                 </div>
                                 <Button asChild className="mt-10 w-[290px]">
-                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank">
+                                    <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20na%20Rota%20do%20por%20do%20sol%20de%20quadriciclo.' target="_blank">
                                         Realizar agendamento
                                     </Link>
                                 </Button>
                             </div>
                             <div className="mt-5">
                                 <h1 className="text-slate-800 font-medium">Está com dúvidas?</h1>
-                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20passeio%20de%20Quadriciclo.' target="_blank" className="font-medium text-primary">
+                                <Link to='https://api.whatsapp.com/send?phone=5584994511101&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ba%C3%ADa%20Formosa%20tour%20e%20tenho%20interesse%20na%20Rota%20do%20por%20do%20sol%20de%20quadriciclo.' target="_blank" className="font-medium text-primary">
                                     Fale com nossa equipe
                                 </Link>
 

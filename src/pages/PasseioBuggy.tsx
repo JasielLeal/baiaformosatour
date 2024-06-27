@@ -7,6 +7,8 @@ import PasseioBuggy4 from '@/assets/PasseioBuggy/PASSEIOBUG4.webp'
 import PasseioBuggy5 from '@/assets/PasseioBuggy/PASSEIOBUG5.webp'
 import PasseioBuggy6 from '@/assets/PasseioBuggy/PASSEIOBUG6.webp'
 import PasseioBuggy7 from '@/assets/PasseioBuggy/PASSEIOBUG7.webp'
+import PasseioBuggy8 from '@/assets/PasseioBuggy/PASSEIOBUG8.webp'
+
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -42,8 +44,9 @@ export function PasseioDeBuggy() {
                             <SwiperSlide>
                                 <img src={PasseioBuggy6} className='w-full h-full' />
                             </SwiperSlide>
-
-
+                            <SwiperSlide>
+                                <img src={PasseioBuggy8} className='w-full h-full' />
+                            </SwiperSlide>
                         </Swiper>
                         <div className="flex flex-col px-5">
                             <div>
